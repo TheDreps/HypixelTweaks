@@ -1,0 +1,98 @@
+Symbol range map extraction starting
+Processing 2 files
+processing me\thedreps\hypixeltweaks\HypixelTweaks.java
+@|me\thedreps\hypixeltweaks\HypixelTweaks.java|8|33|me.thedreps.hypixeltweaks|package|me.thedreps.hypixeltweaks|(file)
+Class Start: me.thedreps.hypixeltweaks.HypixelTweaks
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1029|1035|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1036|1041|MODID|field|me.thedreps.hypixeltweaks.HypixelTweaks|MODID|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1085|1091|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1092|1099|VERSION|field|me.thedreps.hypixeltweaks.HypixelTweaks|VERSION|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1132|1142|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1143|1153|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1160|1170|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1213|1217|init|method|me.thedreps.hypixeltweaks.HypixelTweaks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1218|1240|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1241|1246|event|param|me.thedreps.hypixeltweaks.HypixelTweaks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1259|1275|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1276|1284|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1287|1290|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1293|1301|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1317|1331|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1332|1341|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1342|1350|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1778|1784|onChat|method|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1785|1808|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1809|1810|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1822|1828|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1839|1840|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1841|1848|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1849|1867|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1894|1902|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1935|1945|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1946|1951|reset|method|me.thedreps.hypixeltweaks.ServerInfo|reset|()V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1968|1972|Gson|class|com.google.gson.Gson
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1981|1985|Gson|class|com.google.gson.Gson
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1999|2009|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2014|2022|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2032|2042|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2072|2081|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2082|2094|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2097|2106|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2107|2121|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2126|2143|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2144|2154|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2155|2161|server|field|me.thedreps.hypixeltweaks.ServerInfo|server
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2186|2187|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2188|2199|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+   Method End: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2244|2262|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation|
+   Method Start: onWorldChange(Lnet/minecraftforge/event/world/WorldEvent$Load;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2312|2325|onWorldChange|method|me.thedreps.hypixeltweaks.HypixelTweaks|onWorldChange|(Lnet/minecraftforge/event/world/WorldEvent$Load;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2326|2341|WorldEvent.Load|class|net.minecraftforge.event.world.WorldEvent.Load
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2342|2347|event|param|me.thedreps.hypixeltweaks.HypixelTweaks|onWorldChange|(Lnet/minecraftforge/event/world/WorldEvent$Load;)V|event|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2429|2447|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
+   Method End: onWorldChange(Lnet/minecraftforge/event/world/WorldEvent$Load;)V
+   Method Start: onChunkLoad(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2508|2519|onChunkLoad|method|me.thedreps.hypixeltweaks.HypixelTweaks|onChunkLoad|(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2520|2535|ChunkEvent.Load|class|net.minecraftforge.event.world.ChunkEvent.Load
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2536|2541|event|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChunkLoad|(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V|event|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2553|2571|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2584|2593|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2594|2606|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2609|2618|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2619|2634|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2656|2674|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
+   Method End: onChunkLoad(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
+Class End  : me.thedreps.hypixeltweaks.HypixelTweaks
+endProcessing me\thedreps\hypixeltweaks\HypixelTweaks.java
+
+processing me\thedreps\hypixeltweaks\ServerInfo.java
+@|me\thedreps\hypixeltweaks\ServerInfo.java|8|33|me.thedreps.hypixeltweaks|package|me.thedreps.hypixeltweaks|(file)
+Class Start: me.thedreps.hypixeltweaks.ServerInfo
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|95|101|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|102|108|server|field|me.thedreps.hypixeltweaks.ServerInfo|server|
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|123|129|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|130|138|gameType|field|me.thedreps.hypixeltweaks.ServerInfo|gameType|
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|153|159|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|160|164|mode|field|me.thedreps.hypixeltweaks.ServerInfo|mode|
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|179|185|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|186|189|map|field|me.thedreps.hypixeltweaks.ServerInfo|map|
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|204|210|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|211|220|lobbyname|field|me.thedreps.hypixeltweaks.ServerInfo|lobbyname|
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|235|241|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\ServerInfo.java|242|246|json|field|me.thedreps.hypixeltweaks.ServerInfo|json|
+   Method Start: reset()V
+      @|me\thedreps\hypixeltweaks\ServerInfo.java|275|280|reset|method|me.thedreps.hypixeltweaks.ServerInfo|reset|()V
+      @|me\thedreps\hypixeltweaks\ServerInfo.java|292|298|server|field|me.thedreps.hypixeltweaks.ServerInfo|server
+      @|me\thedreps\hypixeltweaks\ServerInfo.java|319|327|gameType|field|me.thedreps.hypixeltweaks.ServerInfo|gameType
+      @|me\thedreps\hypixeltweaks\ServerInfo.java|348|352|mode|field|me.thedreps.hypixeltweaks.ServerInfo|mode
+      @|me\thedreps\hypixeltweaks\ServerInfo.java|373|376|map|field|me.thedreps.hypixeltweaks.ServerInfo|map
+      @|me\thedreps\hypixeltweaks\ServerInfo.java|397|406|lobbyname|field|me.thedreps.hypixeltweaks.ServerInfo|lobbyname
+      @|me\thedreps\hypixeltweaks\ServerInfo.java|427|431|json|field|me.thedreps.hypixeltweaks.ServerInfo|json
+   Method End: reset()V
+Class End  : me.thedreps.hypixeltweaks.ServerInfo
+endProcessing me\thedreps\hypixeltweaks\ServerInfo.java
+

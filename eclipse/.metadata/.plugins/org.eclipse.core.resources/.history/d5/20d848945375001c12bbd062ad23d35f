@@ -1,0 +1,12 @@
+package me.thedreps.hypixeltweaks;
+
+public class ServerInfo {
+	
+	String server;
+	String gameType;
+	String mode;
+	String map;
+	String lobbyname;
+	String json;
+	
+}

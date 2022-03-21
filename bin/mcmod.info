@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hypixeltweaks",
+  "name": "Hypixel Tweaks",
+  "description": "Lewis' own hypixel tweaks",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheDreps"],
+  "credits": "TheDreps",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

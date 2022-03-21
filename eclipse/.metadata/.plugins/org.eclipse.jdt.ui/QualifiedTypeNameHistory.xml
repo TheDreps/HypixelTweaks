@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.FMLCommonHandler"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.client.event.ClientChatReceivedEvent"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.eventhandler.SubscribeEvent"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.event.entity.EntityJoinWorldEvent"/>
+    <fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.event.world.ChunkEvent"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.event.world.WorldEvent"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="me.thedreps.hypixeltweaks.ServerInfo"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.IChatComponent"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.ChatComponentText"/>
+</qualifiedTypeNameHistroy>
