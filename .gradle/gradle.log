@@ -30,9 +30,9 @@ See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more i
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: C:\Users\lewis\Documents\MC Overlay helper\build\sources\main\java\me\thedreps\hypixeltweaks\HypixelTweaks.java uses or overrides a deprecated API.
+Note: C:\Users\lewis\Documents\GitHub\HypixelTweaks\build\sources\main\java\me\thedreps\hypixeltweaks\HypixelTweaks.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 1 warning
 
@@ -46,14 +46,13 @@ Note: Recompile with -Xlint:deprecation for details.
 :test UP-TO-DATE
 :reobfJar
 :extractRangemapReplacedMain
-C:\Users\lewis\Documents\MC Overlay helper\build\sources\main\java
-:retromapReplacedMain
-remapping source...
-:sourceJar
+C:\Users\lewis\Documents\GitHub\HypixelTweaks\build\sources\main\java
+:retromapReplacedMain UP-TO-DATE
+:sourceJar UP-TO-DATE
 :assemble
 :check UP-TO-DATE
 :build
 
 BUILD SUCCESSFUL
 
-Total time: 18.467 secs
+Total time: 10.26 secs
