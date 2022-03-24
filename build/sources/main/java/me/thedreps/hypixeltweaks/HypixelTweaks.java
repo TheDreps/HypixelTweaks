@@ -1,41 +1,71 @@
 package me.thedreps.hypixeltweaks;
 
 import com.google.gson.Gson;
-
+import me.thedreps.hypixeltweaks.events.AutowhoManager;
+import me.thedreps.hypixeltweaks.events.DeleteJson;
+import me.thedreps.hypixeltweaks.events.LoginChat;
+import me.thedreps.hypixeltweaks.reference.Reference;
+import me.thedreps.hypixeltweaks.update.UpdateCheck;
+import me.thedreps.hypixeltweaks.utility.LogHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.event.world.ChunkEvent;
 import net.minecraftforge.event.world.WorldEvent;
-import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent;
 
-@Mod(modid = HypixelTweaks.MODID, version = HypixelTweaks.VERSION)
+@Mod(modid = Reference.MOD_ID,
+		name = Reference.NAME,
+		version = Reference.MOD_VERSION,
+		acceptedMinecraftVersions = Reference.MC_VERSION,
+		guiFactory = Reference.GUI_FACTORY_CLASS)
+
+
+@SuppressWarnings("unused")
 public class HypixelTweaks
 {
-    public static final String MODID = "hypixeltweaks";
-    public static final String VERSION = "1.0";
-    
-    public static ServerInfo serverInfo = new ServerInfo();
-    //Configuration config = Config.getConfig();
-    
-    @EventHandler
-    public void init(FMLInitializationEvent event)
+	@Mod.Instance(Reference.MOD_ID)
+	public static HypixelTweaks instance = new HypixelTweaks();
+    public static Configuration config = ConfigHandler.getConfig();
+	private static ServerInfo serverInfo = new ServerInfo();
+	public static boolean isAwaitingAutowho = true;
+
+	public static ServerInfo getServerInfo(){return serverInfo;}
+
+
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent e){
+
+		//Config
+		String configDir = e.getModConfigurationDirectory().toString();
+		ConfigHandler.init(configDir);
+		MinecraftForge.EVENT_BUS.register(new ConfigHandler());
+
+		//Update checker
+		UpdateCheck.checkForUpdates();
+		MinecraftForge.EVENT_BUS.register(new LoginChat());
+
+		//Mods
+		MinecraftForge.EVENT_BUS.register(new DeleteJson());
+		MinecraftForge.EVENT_BUS.register(new AutowhoManager());
+
+	}
+
+
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent e)
     {
-    	FMLCommonHandler.instance().bus().register(this);
         MinecraftForge.EVENT_BUS.register(this);
-        Config.preInit();
     }
-   
-    
-    
-    
+
+
+
+
     @SubscribeEvent(priority = EventPriority.HIGHEST)
     public void onChat(ClientChatReceivedEvent e) {
         String message = e.message.getUnformattedText();
@@ -48,63 +78,24 @@ public class HypixelTweaks
         		serverInfo = g.fromJson(message, ServerInfo.class);
         		
             	serverInfo.json = message;
-            	System.out.println(serverInfo.debug());
         		e.setCanceled(true);
         		
         		
         		//Starts autowho timer
-        		if(isAwaitingAutowho && Config.enableAutowho) {
-        			if(serverInfo.gametype.equals("BEDWARS") && !(serverInfo.mode.equals("default"))) {
-                		ticksLeftAutowho = 25;
-                		countingTicksAutowho = true;
-                		isAwaitingAutowho = false;
+        		if(isAwaitingAutowho) {
+        			if((serverInfo.gametype.equals("BEDWARS") || serverInfo.gametype.equals("SKYWARS")) && !(serverInfo.mode.equals("default"))) {
+						AutowhoManager.startAutowho(20);
                 	}
         		}
-        		
-        		return;
-            }
+        	}
             
-    }
-    
-    
-    //AUTOWHO
-    
-    
-    boolean countingTicksAutowho = false;
-    int ticksLeftAutowho;
-    
-    @SubscribeEvent
-    public void startAutoWho(ClientTickEvent e) {
-    	if(countingTicksAutowho) {
-    		if(ticksLeftAutowho > 0) {
-    			ticksLeftAutowho--;
-    			
-    		}else {
-    			Minecraft.getMinecraft().thePlayer.sendChatMessage("/who");
-    			countingTicksAutowho = false;
-    		}
-    	}
-    }
-    
-    
-    
-    
-    
-    
-    
-    @SubscribeEvent(priority = EventPriority.LOWEST)
-    public void deleteJSON(ClientChatReceivedEvent e) {
-        if(Config.enableJsonRemover) {
-        	String message = e.message.getUnformattedText();
-            if(message.contains("{\"server\":")) {
-            	e.setCanceled(true);
+            if(message.contains("Your new API key is")) {
+				String userApiKey = message.substring(message.length() - 36);
+				ConfigHandler.setApiKey(userApiKey);
+				LogHelper.info("[Hypixel Tweaks] Registered new API key: " + userApiKey);
             }
-        }
     }
-    
-    
-    
-    boolean isAwaitingAutowho = true;
+
     boolean isAwaitingLocation = true;
     
     @SubscribeEvent
@@ -120,8 +111,8 @@ public class HypixelTweaks
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public void onChunkLoad(ChunkEvent.Load event) {
     	if(isAwaitingLocation) {
-    		if(Config.enableCompatibilityMode) {
-    			System.out.println("Compatibility mode enabled - Ran /locraw");
+    		if(ConfigHandler.enableCompatibilityMode) {
+    			LogHelper.info("Compatibility mode enabled - Ran /locraw");
     			Minecraft.getMinecraft().thePlayer.sendChatMessage("/locraw");
     		}
     		isAwaitingLocation = false;

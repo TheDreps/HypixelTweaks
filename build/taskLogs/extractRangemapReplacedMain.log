@@ -1,5 +1,17 @@
 Symbol range map extraction starting
-Processing 3 files
-processing me\thedreps\hypixeltweaks\Config.java
+Processing 15 files
+processing me\thedreps\hypixeltweaks\ConfigHandler.java
 processing me\thedreps\hypixeltweaks\HypixelTweaks.java
 processing me\thedreps\hypixeltweaks\ServerInfo.java
+processing me\thedreps\hypixeltweaks\events\AutowhoManager.java
+processing me\thedreps\hypixeltweaks\events\DeleteJson.java
+processing me\thedreps\hypixeltweaks\events\LoginChat.java
+processing me\thedreps\hypixeltweaks\gui\GuiFactory.java
+processing me\thedreps\hypixeltweaks\gui\ModGuiConfig.java
+processing me\thedreps\hypixeltweaks\reference\Reference.java
+processing me\thedreps\hypixeltweaks\reference\UpdateInfo.java
+processing me\thedreps\hypixeltweaks\update\UpdateCheck.java
+processing me\thedreps\hypixeltweaks\update\UpdateError.java
+processing me\thedreps\hypixeltweaks\update\UpdateSuccess.java
+processing me\thedreps\hypixeltweaks\utility\LogHelper.java
+processing me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java

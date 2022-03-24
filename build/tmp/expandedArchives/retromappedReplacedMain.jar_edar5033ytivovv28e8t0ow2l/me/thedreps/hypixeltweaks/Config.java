@@ -18,6 +18,7 @@ public class Config {
 	
 	public static final String GENERAL = "General";
 	
+	public static String apiKey;
 	public static boolean enableAutowho;
 	public static boolean enableJsonRemover;
 	public static boolean enableCompatibilityMode;
@@ -53,6 +54,8 @@ public class Config {
 			config.load();
 		}
 		
+		Property propertyApiKey = config.get(GENERAL, "api_key", "Do \"/api new\" to generate a new one");
+		propertyApiKey.comment = "Your hypixel api key";
 		Property propertyEnableAutowho = config.get(GENERAL, "enable_autowho", true);
 		propertyEnableAutowho.comment = "Enable Autowho here";
 		Property propertyEnableJsonRemover = config.get(GENERAL, "enable_json_remover", true);
@@ -61,6 +64,7 @@ public class Config {
 		propertyEnableCompatibilityMode.comment = "If you are having issues with the plugin try to enable this";
 		
 		List<String> propertyOrderBlocks = new ArrayList<String>();
+		propertyOrderBlocks.add(propertyApiKey.getName());
 		propertyOrderBlocks.add(propertyEnableAutowho.getName());
 		propertyOrderBlocks.add(propertyEnableJsonRemover.getName());
 		propertyOrderBlocks.add(propertyEnableCompatibilityMode.getName());
@@ -68,11 +72,13 @@ public class Config {
 		config.setCategoryPropertyOrder(GENERAL, propertyOrderBlocks);
 		
 		if(readFieldsFromConfig) {
+			apiKey = propertyApiKey.getString();
 			enableAutowho = propertyEnableAutowho.getBoolean();
 			enableJsonRemover = propertyEnableJsonRemover.getBoolean();
 			enableCompatibilityMode = propertyEnableCompatibilityMode.getBoolean();
 		}
 		
+		propertyApiKey.set(apiKey);
 		propertyEnableAutowho.set(enableAutowho);
 		propertyEnableJsonRemover.set(enableJsonRemover);
 		propertyEnableCompatibilityMode.set(enableCompatibilityMode);
