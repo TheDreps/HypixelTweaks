@@ -1,4 +1,5 @@
 # HypixelTweaks
+[![](https://jitpack.io/v/HypixelDev/PublicAPI.svg)](https://jitpack.io/#HypixelDev/PublicAPI)
  Small plugin with a few tweaks
 
 Features:
@@ -13,9 +14,3 @@ Coming in v1.1.0 (soon):
  - In-game config editor
 
 If you have any issues with features not working try turning on compatibility mode in the config.
-
-
-
-[![](https://jitpack.io/v/HypixelDev/PublicAPI.svg)](https://jitpack.io/#HypixelDev/PublicAPI)
-
-
