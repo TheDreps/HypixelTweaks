@@ -42,19 +42,27 @@ public class AutowhoManager {
         sb.append("ONLINE: ");
 
         double myX = 0;
+        double myY = 0;
         double myZ = 0;
 
         for (EntityPlayer player : players) {
             if(player.getName().equalsIgnoreCase(me)){
                 PlayerToXYZ pXYZ = new PlayerToXYZ(player);
                 myX = pXYZ.getX();
+                myY = pXYZ.getY();
                 myZ = pXYZ.getZ();
             }
         }
 
         for (EntityPlayer player : players) {
             PlayerToXYZ pXYZ = new PlayerToXYZ(player);
-            if(pXYZ.getX() == myX && pXYZ.getZ() == myZ && !(player.getName().equalsIgnoreCase(me))){
+            if(pXYZ.getX() == myX
+                    &&
+                    (pXYZ.getY() < myY - 3 || pXYZ.getY() > myY + 3)
+                    &&
+                    pXYZ.getZ() == myZ
+                    &&
+                    !(player.getName().equalsIgnoreCase(me))){
                 continue;
             }
             sb.append(player.getDisplayNameString()).append(", ");

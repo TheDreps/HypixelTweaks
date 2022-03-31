@@ -33518,15 +33518,18 @@ Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/clien
 Rename field net/minecraft/client/Minecraft/theWorld[1221,1229]::theWorld->field_71441_e
 Rename field net/minecraft/world/World/playerEntities[1235,1249]::playerEntities->field_73010_i
 [method, java/lang/AbstractStringBuilder/append, (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;]
-Rename class net/minecraft/entity/player/EntityPlayer[1392,1404]::EntityPlayer->EntityPlayer
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[1447,1454]::getName->func_70005_c_
+Rename class net/minecraft/entity/player/EntityPlayer[1416,1428]::EntityPlayer->EntityPlayer
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[1471,1478]::getName->func_70005_c_
 [method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getX, ()D]
+[method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getY, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getZ, ()D]
-Rename class net/minecraft/entity/player/EntityPlayer[1654,1666]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[1713,1725]::EntityPlayer->EntityPlayer
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getX, ()D]
+[method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getY, ()D]
+[method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getY, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getZ, ()D]
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[1811,1818]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[2042,2049]::getName->func_70005_c_
 [method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
 [method, java/lang/AbstractStringBuilder/append, (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;]
 [method, net/minecraft/entity/player/EntityPlayer/getDisplayNameString, ()Ljava/lang/String;]
@@ -33726,8 +33729,12 @@ Start Processing: me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java
 Warning: me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java has CRLF line endings; consider switching to LF
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/PlayerToXYZ, (Lnet/minecraft/entity/player/EntityPlayer;)V]
 FOUND CONSTR method me/thedreps/hypixeltweaks/utility/PlayerToXYZ/PlayerToXYZ (Lnet/minecraft/entity/player/EntityPlayer;)V me/thedreps/hypixeltweaks/utility/PlayerToXYZ
-Rename class net/minecraft/entity/player/EntityPlayer[232,244]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[230,242]::EntityPlayer->EntityPlayer
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
+[method, java/lang/Double/parseDouble, (Ljava/lang/String;)D]
+[method, java/lang/String/substring, (II)Ljava/lang/String;]
+[method, java/lang/String/indexOf, (Ljava/lang/String;)I]
+[method, java/lang/String/indexOf, (Ljava/lang/String;)I]
 [method, java/lang/Double/parseDouble, (Ljava/lang/String;)D]
 [method, java/lang/String/substring, (II)Ljava/lang/String;]
 [method, java/lang/String/indexOf, (Ljava/lang/String;)I]
@@ -33737,6 +33744,7 @@ Rename class net/minecraft/entity/player/EntityPlayer[232,244]::EntityPlayer->En
 [method, java/lang/String/indexOf, (Ljava/lang/String;)I]
 [method, java/lang/CharSequence/length, ()I]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getX, ()D]
+[method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getY, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getZ, ()D]
 Import: net.minecraft.entity.player.EntityPlayer
 Adding 0 imports
