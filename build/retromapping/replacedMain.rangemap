@@ -1,5 +1,5 @@
 Symbol range map extraction starting
-Processing 15 files
+Processing 23 files
 processing me\thedreps\hypixeltweaks\ConfigHandler.java
 @|me\thedreps\hypixeltweaks\ConfigHandler.java|8|33|me.thedreps.hypixeltweaks|package|me.thedreps.hypixeltweaks|(file)
 Class Start: me.thedreps.hypixeltweaks.ConfigHandler
@@ -10,89 +10,135 @@ Class Start: me.thedreps.hypixeltweaks.ConfigHandler
    @|me\thedreps\hypixeltweaks\ConfigHandler.java|449|460|updateCheck|field|me.thedreps.hypixeltweaks.ConfigHandler|updateCheck|
    @|me\thedreps\hypixeltweaks\ConfigHandler.java|492|509|enableJsonRemover|field|me.thedreps.hypixeltweaks.ConfigHandler|enableJsonRemover|
    @|me\thedreps\hypixeltweaks\ConfigHandler.java|541|564|enableCompatibilityMode|field|me.thedreps.hypixeltweaks.ConfigHandler|enableCompatibilityMode|
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|597|619|enableAutoDodgeBedwars|field|me.thedreps.hypixeltweaks.ConfigHandler|enableAutoDodgeBedwars|
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|648|663|maxBedwarsIndex|field|me.thedreps.hypixeltweaks.ConfigHandler|maxBedwarsIndex|
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|695|717|enableAutoDodgeSkywars|field|me.thedreps.hypixeltweaks.ConfigHandler|enableAutoDodgeSkywars|
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|746|760|maxSkywarsStar|field|me.thedreps.hypixeltweaks.ConfigHandler|maxSkywarsStar|
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|790|803|dodgeForNicks|field|me.thedreps.hypixeltweaks.ConfigHandler|dodgeForNicks|
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|831|844|requeueBuffer|field|me.thedreps.hypixeltweaks.ConfigHandler|requeueBuffer|
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|865|871|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\ConfigHandler.java|872|888|antiSniperApiKey|field|me.thedreps.hypixeltweaks.ConfigHandler|antiSniperApiKey|
    Method Start: init(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|595|599|init|method|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|600|606|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|607|616|configDir|param|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V|configDir|0
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|625|631|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|646|650|File|class|java.io.File
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|662|666|File|class|java.io.File
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|667|676|configDir|param|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V|configDir|0
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|685|694|Reference|class|me.thedreps.hypixeltweaks.reference.Reference
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|695|701|MOD_ID|field|me.thedreps.hypixeltweaks.reference.Reference|MOD_ID
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|717|723|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|730|743|Configuration|class|net.minecraftforge.common.config.Configuration
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|754|771|loadConfiguration|method|me.thedreps.hypixeltweaks.ConfigHandler|loadConfiguration|()V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|779|789|apiKeyPath|field|me.thedreps.hypixeltweaks.ConfigHandler|apiKeyPath
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|792|801|configDir|param|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V|configDir|0
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|810|819|Reference|class|me.thedreps.hypixeltweaks.reference.Reference
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|820|826|MOD_ID|field|me.thedreps.hypixeltweaks.reference.Reference|MOD_ID
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|916|920|init|method|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|921|927|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|928|937|configDir|param|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V|configDir|0
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|946|952|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|967|971|File|class|java.io.File
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|983|987|File|class|java.io.File
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|988|997|configDir|param|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V|configDir|0
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1006|1015|Reference|class|me.thedreps.hypixeltweaks.reference.Reference
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1016|1022|MOD_ID|field|me.thedreps.hypixeltweaks.reference.Reference|MOD_ID
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1038|1044|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1051|1064|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1075|1092|loadConfiguration|method|me.thedreps.hypixeltweaks.ConfigHandler|loadConfiguration|()V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1100|1110|apiKeyPath|field|me.thedreps.hypixeltweaks.ConfigHandler|apiKeyPath
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1113|1122|configDir|param|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V|configDir|0
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1131|1140|Reference|class|me.thedreps.hypixeltweaks.reference.Reference
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1141|1147|MOD_ID|field|me.thedreps.hypixeltweaks.reference.Reference|MOD_ID
    Method End: init(Ljava/lang/String;)V
    Method Start: loadConfiguration()V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|873|890|loadConfiguration|method|me.thedreps.hypixeltweaks.ConfigHandler|loadConfiguration|()V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|896|907|updateCheck|field|me.thedreps.hypixeltweaks.ConfigHandler|updateCheck
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|910|916|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|917|927|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|949|962|Configuration|class|net.minecraftforge.common.config.Configuration
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|963|979|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1030|1047|enableJsonRemover|field|me.thedreps.hypixeltweaks.ConfigHandler|enableJsonRemover
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1050|1056|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1057|1067|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1091|1104|Configuration|class|net.minecraftforge.common.config.Configuration
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1105|1121|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1188|1211|enableCompatibilityMode|field|me.thedreps.hypixeltweaks.ConfigHandler|enableCompatibilityMode
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1214|1220|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1221|1231|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1261|1274|Configuration|class|net.minecraftforge.common.config.Configuration
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1275|1291|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1376|1382|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1383|1393|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1401|1407|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1408|1412|save|method|net.minecraftforge.common.config.Configuration|save|()V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1194|1211|loadConfiguration|method|me.thedreps.hypixeltweaks.ConfigHandler|loadConfiguration|()V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1217|1228|updateCheck|field|me.thedreps.hypixeltweaks.ConfigHandler|updateCheck
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1231|1237|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1238|1248|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1270|1283|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1284|1300|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1351|1368|enableJsonRemover|field|me.thedreps.hypixeltweaks.ConfigHandler|enableJsonRemover
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1371|1377|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1378|1388|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1412|1425|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1426|1442|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1509|1532|enableCompatibilityMode|field|me.thedreps.hypixeltweaks.ConfigHandler|enableCompatibilityMode
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1535|1541|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1542|1552|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1582|1595|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1596|1612|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1691|1713|enableAutoDodgeBedwars|field|me.thedreps.hypixeltweaks.ConfigHandler|enableAutoDodgeBedwars
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1716|1722|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1723|1733|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1763|1776|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1777|1793|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1850|1865|maxBedwarsIndex|field|me.thedreps.hypixeltweaks.ConfigHandler|maxBedwarsIndex
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1868|1874|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1875|1881|getInt|method|net.minecraftforge.common.config.Configuration|getInt|(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1903|1916|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1917|1933|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1944|1951|Integer|class|java.lang.Integer
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1952|1961|MAX_VALUE|field|java.lang.Integer|MAX_VALUE
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1998|2020|enableAutoDodgeSkywars|field|me.thedreps.hypixeltweaks.ConfigHandler|enableAutoDodgeSkywars
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2023|2029|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2030|2040|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2070|2083|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2084|2100|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2157|2171|maxSkywarsStar|field|me.thedreps.hypixeltweaks.ConfigHandler|maxSkywarsStar
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2174|2180|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2181|2187|getInt|method|net.minecraftforge.common.config.Configuration|getInt|(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2208|2221|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2222|2238|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2247|2254|Integer|class|java.lang.Integer
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2255|2264|MAX_VALUE|field|java.lang.Integer|MAX_VALUE
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2300|2313|dodgeForNicks|field|me.thedreps.hypixeltweaks.ConfigHandler|dodgeForNicks
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2316|2322|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2323|2333|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2357|2370|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2371|2387|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2434|2447|requeueBuffer|field|me.thedreps.hypixeltweaks.ConfigHandler|requeueBuffer
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2450|2456|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2457|2463|getInt|method|net.minecraftforge.common.config.Configuration|getInt|(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2492|2505|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2506|2522|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2530|2537|Integer|class|java.lang.Integer
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2538|2547|MAX_VALUE|field|java.lang.Integer|MAX_VALUE
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2628|2644|antiSniperApiKey|field|me.thedreps.hypixeltweaks.ConfigHandler|antiSniperApiKey
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2647|2653|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2654|2663|getString|method|net.minecraftforge.common.config.Configuration|getString|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2686|2699|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2700|2716|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2789|2795|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2796|2806|hasChanged|method|net.minecraftforge.common.config.Configuration|hasChanged|()Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2814|2820|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2821|2825|save|method|net.minecraftforge.common.config.Configuration|save|()V
    Method End: loadConfiguration()V
    Method Start: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1454|1469|onConfigChanged|method|me.thedreps.hypixeltweaks.ConfigHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1470|1488|ConfigChangedEvent|class|net.minecraftforge.fml.client.event.ConfigChangedEvent
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1489|1490|e|param|me.thedreps.hypixeltweaks.ConfigHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1498|1499|e|param|me.thedreps.hypixeltweaks.ConfigHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1500|1505|modID|field|net.minecraftforge.fml.client.event.ConfigChangedEvent|modID
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1506|1522|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1523|1532|Reference|class|me.thedreps.hypixeltweaks.reference.Reference
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1533|1539|MOD_ID|field|me.thedreps.hypixeltweaks.reference.Reference|MOD_ID
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1546|1563|loadConfiguration|method|me.thedreps.hypixeltweaks.ConfigHandler|loadConfiguration|()V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2867|2882|onConfigChanged|method|me.thedreps.hypixeltweaks.ConfigHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2883|2901|ConfigChangedEvent|class|net.minecraftforge.fml.client.event.ConfigChangedEvent
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2902|2903|e|param|me.thedreps.hypixeltweaks.ConfigHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2911|2912|e|param|me.thedreps.hypixeltweaks.ConfigHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2913|2918|modID|field|net.minecraftforge.fml.client.event.ConfigChangedEvent|modID
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2919|2935|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2936|2945|Reference|class|me.thedreps.hypixeltweaks.reference.Reference
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2946|2952|MOD_ID|field|me.thedreps.hypixeltweaks.reference.Reference|MOD_ID
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2959|2976|loadConfiguration|method|me.thedreps.hypixeltweaks.ConfigHandler|loadConfiguration|()V
    Method End: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
    Method Start: getConfig()Lnet/minecraftforge/common/config/Configuration;
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1604|1613|getConfig|method|me.thedreps.hypixeltweaks.ConfigHandler|getConfig|()Lnet/minecraftforge/common/config/Configuration;
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1590|1603|Configuration|class|net.minecraftforge.common.config.Configuration
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1624|1630|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3017|3026|getConfig|method|me.thedreps.hypixeltweaks.ConfigHandler|getConfig|()Lnet/minecraftforge/common/config/Configuration;
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3003|3016|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3037|3043|config|field|me.thedreps.hypixeltweaks.ConfigHandler|config
    Method End: getConfig()Lnet/minecraftforge/common/config/Configuration;
    Method Start: getApiKey()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1656|1665|getApiKey|method|me.thedreps.hypixeltweaks.ConfigHandler|getApiKey|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1649|1655|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1680|1694|BufferedReader|class|java.io.BufferedReader
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1704|1718|BufferedReader|class|java.io.BufferedReader
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1723|1733|FileReader|class|java.io.FileReader
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1734|1744|apiKeyPath|field|me.thedreps.hypixeltweaks.ConfigHandler|apiKeyPath
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1761|1769|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1784|1805|FileNotFoundException|class|java.io.FileNotFoundException
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1816|1831|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1846|1857|IOException|class|java.io.IOException
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1868|1883|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3069|3078|getApiKey|method|me.thedreps.hypixeltweaks.ConfigHandler|getApiKey|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3062|3068|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3093|3107|BufferedReader|class|java.io.BufferedReader
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3117|3131|BufferedReader|class|java.io.BufferedReader
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3136|3146|FileReader|class|java.io.FileReader
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3147|3157|apiKeyPath|field|me.thedreps.hypixeltweaks.ConfigHandler|apiKeyPath
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3174|3182|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3197|3208|IOException|class|java.io.IOException
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3219|3234|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
    Method End: getApiKey()Ljava/lang/String;
    Method Start: setApiKey(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1930|1939|setApiKey|method|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1940|1946|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1947|1950|key|param|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V|key|0
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1955|1966|PrintWriter|class|java.io.PrintWriter
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|1991|2002|PrintWriter|class|java.io.PrintWriter
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2003|2013|apiKeyPath|field|me.thedreps.hypixeltweaks.ConfigHandler|apiKeyPath
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2031|2038|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2039|2042|key|param|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V|key|0
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2051|2056|close|method|java.lang.AutoCloseable|close|()V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2071|2092|FileNotFoundException|class|java.io.FileNotFoundException
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2103|2118|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2133|2161|UnsupportedEncodingException|class|java.io.UnsupportedEncodingException
-      @|me\thedreps\hypixeltweaks\ConfigHandler.java|2172|2187|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3281|3290|setApiKey|method|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3291|3297|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3298|3301|key|param|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V|key|0
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3306|3317|PrintWriter|class|java.io.PrintWriter
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3342|3353|PrintWriter|class|java.io.PrintWriter
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3354|3364|apiKeyPath|field|me.thedreps.hypixeltweaks.ConfigHandler|apiKeyPath
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3382|3389|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3390|3393|key|param|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V|key|0
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3402|3407|close|method|java.lang.AutoCloseable|close|()V
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3422|3443|FileNotFoundException|class|java.io.FileNotFoundException
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3446|3474|UnsupportedEncodingException|class|java.io.UnsupportedEncodingException
+      @|me\thedreps\hypixeltweaks\ConfigHandler.java|3485|3500|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
    Method End: setApiKey(Ljava/lang/String;)V
 Class End  : me.thedreps.hypixeltweaks.ConfigHandler
 endProcessing me\thedreps\hypixeltweaks\ConfigHandler.java
@@ -100,128 +146,152 @@ endProcessing me\thedreps\hypixeltweaks\ConfigHandler.java
 processing me\thedreps\hypixeltweaks\HypixelTweaks.java
 @|me\thedreps\hypixeltweaks\HypixelTweaks.java|8|33|me.thedreps.hypixeltweaks|package|me.thedreps.hypixeltweaks|(file)
 Class Start: me.thedreps.hypixeltweaks.HypixelTweaks
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1295|1308|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1309|1317|instance|field|me.thedreps.hypixeltweaks.HypixelTweaks|instance|
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1324|1337|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1359|1372|Configuration|class|net.minecraftforge.common.config.Configuration
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1373|1379|config|field|me.thedreps.hypixeltweaks.HypixelTweaks|config|
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1382|1395|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1396|1405|getConfig|method|me.thedreps.hypixeltweaks.ConfigHandler|getConfig|()Lnet/minecraftforge/common/config/Configuration;
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1425|1435|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1436|1446|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo|
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1453|1463|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1490|1507|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1351|1364|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1365|1373|instance|field|me.thedreps.hypixeltweaks.HypixelTweaks|instance|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1380|1393|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1415|1428|Configuration|class|net.minecraftforge.common.config.Configuration
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1429|1435|config|field|me.thedreps.hypixeltweaks.HypixelTweaks|config|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1438|1451|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1452|1461|getConfig|method|me.thedreps.hypixeltweaks.ConfigHandler|getConfig|()Lnet/minecraftforge/common/config/Configuration;
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1481|1491|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1492|1502|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1509|1519|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1546|1563|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho|
    Method Start: getServerInfo()Lme/thedreps/hypixeltweaks/ServerInfo;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1543|1556|getServerInfo|method|me.thedreps.hypixeltweaks.HypixelTweaks|getServerInfo|()Lme/thedreps/hypixeltweaks/ServerInfo;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1532|1542|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1566|1576|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1599|1612|getServerInfo|method|me.thedreps.hypixeltweaks.HypixelTweaks|getServerInfo|()Lme/thedreps/hypixeltweaks/ServerInfo;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1588|1598|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1622|1632|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
    Method End: getServerInfo()Lme/thedreps/hypixeltweaks/ServerInfo;
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1613|1620|preInit|method|me.thedreps.hypixeltweaks.HypixelTweaks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1621|1646|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1647|1648|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1665|1671|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1684|1685|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1686|1714|getModConfigurationDirectory|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModConfigurationDirectory|()Ljava/io/File;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1717|1725|toString|method|java.lang.Object|toString|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1731|1744|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1745|1749|init|method|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1764|1778|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1779|1788|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1789|1797|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1802|1815|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1842|1853|UpdateCheck|class|me.thedreps.hypixeltweaks.update.UpdateCheck
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1854|1869|checkForUpdates|method|me.thedreps.hypixeltweaks.update.UpdateCheck|checkForUpdates|()V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1875|1889|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1890|1899|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1900|1908|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1913|1922|LoginChat|class|me.thedreps.hypixeltweaks.events.LoginChat
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1939|1953|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1954|1963|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1964|1972|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1977|1987|DeleteJson|class|me.thedreps.hypixeltweaks.events.DeleteJson
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1994|2008|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2009|2018|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2019|2027|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2032|2046|AutowhoManager|class|me.thedreps.hypixeltweaks.events.AutowhoManager
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1669|1676|preInit|method|me.thedreps.hypixeltweaks.HypixelTweaks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1677|1702|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1703|1704|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1721|1727|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1740|1741|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1742|1770|getModConfigurationDirectory|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModConfigurationDirectory|()Ljava/io/File;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1773|1781|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1787|1800|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1801|1805|init|method|me.thedreps.hypixeltweaks.ConfigHandler|init|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1820|1834|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1835|1844|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1845|1853|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1858|1871|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1898|1909|UpdateCheck|class|me.thedreps.hypixeltweaks.update.UpdateCheck
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1910|1925|checkForUpdates|method|me.thedreps.hypixeltweaks.update.UpdateCheck|checkForUpdates|()V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1931|1945|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1946|1955|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1956|1964|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1969|1978|LoginChat|class|me.thedreps.hypixeltweaks.events.LoginChat
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|1995|2009|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2010|2019|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2020|2028|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2033|2043|DeleteJson|class|me.thedreps.hypixeltweaks.events.DeleteJson
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2050|2064|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2065|2074|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2075|2083|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2088|2102|AutowhoManager|class|me.thedreps.hypixeltweaks.events.AutowhoManager
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2095|2099|init|method|me.thedreps.hypixeltweaks.HypixelTweaks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2100|2122|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2123|2124|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2140|2154|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2155|2164|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2165|2173|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2264|2268|init|method|me.thedreps.hypixeltweaks.HypixelTweaks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2269|2291|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2292|2293|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2309|2323|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2324|2333|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2334|2342|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2261|2267|onChat|method|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2268|2291|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2292|2293|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2305|2311|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2322|2323|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2324|2331|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2332|2350|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2413|2421|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2454|2472|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2495|2505|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2506|2511|reset|method|me.thedreps.hypixeltweaks.ServerInfo|reset|()V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2528|2532|Gson|class|com.google.gson.Gson
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2541|2545|Gson|class|com.google.gson.Gson
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2559|2569|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2574|2582|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2592|2602|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2635|2645|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2646|2650|json|field|me.thedreps.hypixeltweaks.ServerInfo|json
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2672|2673|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2674|2685|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2761|2778|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2797|2807|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2808|2816|gametype|field|me.thedreps.hypixeltweaks.ServerInfo|gametype
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2817|2823|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2838|2848|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2849|2857|gametype|field|me.thedreps.hypixeltweaks.ServerInfo|gametype
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2858|2864|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2882|2892|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2893|2897|mode|field|me.thedreps.hypixeltweaks.ServerInfo|mode
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2898|2904|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2926|2940|AutowhoManager|class|me.thedreps.hypixeltweaks.events.AutowhoManager
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2941|2953|startAutowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3037|3045|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3076|3082|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3104|3113|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3122|3128|length|method|java.lang.CharSequence|length|()I
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3142|3155|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3156|3165|setApiKey|method|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3183|3192|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3193|3197|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2431|2437|onChat|method|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2438|2461|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2462|2463|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2475|2481|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2492|2493|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2494|2501|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2502|2520|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2583|2591|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2624|2642|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2665|2675|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2676|2681|reset|method|me.thedreps.hypixeltweaks.ServerInfo|reset|()V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2698|2702|Gson|class|com.google.gson.Gson
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2711|2715|Gson|class|com.google.gson.Gson
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2729|2739|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2744|2752|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2762|2772|ServerInfo|class|me.thedreps.hypixeltweaks.ServerInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2805|2815|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2816|2820|json|field|me.thedreps.hypixeltweaks.ServerInfo|json
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2842|2843|e|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2844|2855|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2931|2948|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2967|2977|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2978|2986|gametype|field|me.thedreps.hypixeltweaks.ServerInfo|gametype
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|2987|2993|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3008|3018|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3019|3027|gametype|field|me.thedreps.hypixeltweaks.ServerInfo|gametype
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3028|3034|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3052|3062|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3063|3067|mode|field|me.thedreps.hypixeltweaks.ServerInfo|mode
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3068|3074|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3096|3110|AutowhoManager|class|me.thedreps.hypixeltweaks.events.AutowhoManager
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3111|3123|startAutowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3212|3220|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3251|3257|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3279|3288|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3297|3303|length|method|java.lang.CharSequence|length|()I
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3317|3330|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3331|3340|setApiKey|method|me.thedreps.hypixeltweaks.ConfigHandler|setApiKey|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3358|3367|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3368|3372|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
    Method End: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
-   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3290|3308|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation|
+   @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3465|3483|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation|
    Method Start: onWorldChange(Lnet/minecraftforge/event/world/WorldEvent$Load;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3358|3371|onWorldChange|method|me.thedreps.hypixeltweaks.HypixelTweaks|onWorldChange|(Lnet/minecraftforge/event/world/WorldEvent$Load;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3372|3387|WorldEvent.Load|class|net.minecraftforge.event.world.WorldEvent.Load
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3388|3393|event|param|me.thedreps.hypixeltweaks.HypixelTweaks|onWorldChange|(Lnet/minecraftforge/event/world/WorldEvent$Load;)V|event|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3403|3413|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3414|3419|reset|method|me.thedreps.hypixeltweaks.ServerInfo|reset|()V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3429|3447|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3462|3479|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3533|3546|onWorldChange|method|me.thedreps.hypixeltweaks.HypixelTweaks|onWorldChange|(Lnet/minecraftforge/event/world/WorldEvent$Load;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3547|3562|WorldEvent.Load|class|net.minecraftforge.event.world.WorldEvent.Load
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3563|3568|event|param|me.thedreps.hypixeltweaks.HypixelTweaks|onWorldChange|(Lnet/minecraftforge/event/world/WorldEvent$Load;)V|event|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3578|3588|serverInfo|field|me.thedreps.hypixeltweaks.HypixelTweaks|serverInfo
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3589|3594|reset|method|me.thedreps.hypixeltweaks.ServerInfo|reset|()V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3604|3622|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3637|3654|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3666|3677|CurrentGame|class|me.thedreps.hypixeltweaks.reference.CurrentGame
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3678|3687|resetGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|resetGame|()V
    Method End: onWorldChange(Lnet/minecraftforge/event/world/WorldEvent$Load;)V
    Method Start: onChunkLoad(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3587|3598|onChunkLoad|method|me.thedreps.hypixeltweaks.HypixelTweaks|onChunkLoad|(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3599|3614|ChunkEvent.Load|class|net.minecraftforge.event.world.ChunkEvent.Load
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3615|3620|event|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChunkLoad|(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V|event|0
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3632|3650|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3663|3676|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3677|3700|enableCompatibilityMode|field|me.thedreps.hypixeltweaks.ConfigHandler|enableCompatibilityMode
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3711|3720|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3721|3725|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3778|3787|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3788|3800|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3803|3812|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3813|3828|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
-      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3855|3873|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3790|3801|onChunkLoad|method|me.thedreps.hypixeltweaks.HypixelTweaks|onChunkLoad|(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3802|3817|ChunkEvent.Load|class|net.minecraftforge.event.world.ChunkEvent.Load
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3818|3823|event|param|me.thedreps.hypixeltweaks.HypixelTweaks|onChunkLoad|(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V|event|0
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3835|3853|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3866|3879|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3880|3903|enableCompatibilityMode|field|me.thedreps.hypixeltweaks.ConfigHandler|enableCompatibilityMode
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3914|3923|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3924|3928|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3981|3990|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|3991|4003|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|4006|4015|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|4016|4031|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\HypixelTweaks.java|4058|4076|isAwaitingLocation|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingLocation
    Method End: onChunkLoad(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
 Class End  : me.thedreps.hypixeltweaks.HypixelTweaks
 endProcessing me\thedreps\hypixeltweaks\HypixelTweaks.java
+
+processing me\thedreps\hypixeltweaks\KeyHandler.java
+@|me\thedreps\hypixeltweaks\KeyHandler.java|8|33|me.thedreps.hypixeltweaks|package|me.thedreps.hypixeltweaks|(file)
+Class Start: me.thedreps.hypixeltweaks.KeyHandler
+   @|me\thedreps\hypixeltweaks\KeyHandler.java|280|290|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+   @|me\thedreps\hypixeltweaks\KeyHandler.java|293|304|keyBindings|field|me.thedreps.hypixeltweaks.KeyHandler|keyBindings|
+   Method Start: KeyHandler()V
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|318|328|KeyHandler|method|me.thedreps.hypixeltweaks.KeyHandler|KeyHandler|()V
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|342|353|keyBindings|field|me.thedreps.hypixeltweaks.KeyHandler|keyBindings
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|360|370|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|424|435|keyBindings|field|me.thedreps.hypixeltweaks.KeyHandler|keyBindings
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|445|455|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|464|472|Keyboard|class|org.lwjgl.input.Keyboard
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|473|484|KEY_CAPITAL|field|org.lwjgl.input.Keyboard|KEY_CAPITAL
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|486|495|Reference|class|me.thedreps.hypixeltweaks.reference.Reference
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|496|502|MOD_ID|field|me.thedreps.hypixeltweaks.reference.Reference|MOD_ID
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|514|528|ClientRegistry|class|net.minecraftforge.fml.client.registry.ClientRegistry
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|529|547|registerKeyBinding|method|net.minecraftforge.fml.client.registry.ClientRegistry|registerKeyBinding|(Lnet/minecraft/client/settings/KeyBinding;)V
+      @|me\thedreps\hypixeltweaks\KeyHandler.java|548|559|keyBindings|field|me.thedreps.hypixeltweaks.KeyHandler|keyBindings
+   Method End: KeyHandler()V
+Class End  : me.thedreps.hypixeltweaks.KeyHandler
+endProcessing me\thedreps\hypixeltweaks\KeyHandler.java
 
 processing me\thedreps\hypixeltweaks\ServerInfo.java
 @|me\thedreps\hypixeltweaks\ServerInfo.java|8|33|me.thedreps.hypixeltweaks|package|me.thedreps.hypixeltweaks|(file)
@@ -265,69 +335,118 @@ processing me\thedreps\hypixeltweaks\events\AutowhoManager.java
 @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|8|40|me.thedreps.hypixeltweaks.events|package|me.thedreps.hypixeltweaks.events|(file)
 Class Start: me.thedreps.hypixeltweaks.events.AutowhoManager
    Method Start: startAutowho(I)V
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|516|528|startAutowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|533|538|delay|param|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V|delay|0
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|549|558|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|561|566|delay|param|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V|delay|0
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|576|596|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|613|626|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|627|644|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|684|696|startAutowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|701|706|delay|param|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V|delay|0
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|717|726|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|729|734|delay|param|me.thedreps.hypixeltweaks.events.AutowhoManager|startAutowho|(I)V|delay|0
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|744|764|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|781|794|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|795|812|isAwaitingAutowho|field|me.thedreps.hypixeltweaks.HypixelTweaks|isAwaitingAutowho
    Method End: startAutowho(I)V
-   @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|688|708|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho|
-   @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|741|750|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft|
+   @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|856|876|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho|
+   @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|909|918|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft|
    Method Start: autowhoTimer(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|789|801|autowhoTimer|method|me.thedreps.hypixeltweaks.events.AutowhoManager|autowhoTimer|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|802|827|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|828|829|e|param|me.thedreps.hypixeltweaks.events.AutowhoManager|autowhoTimer|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|e|0
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|844|864|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|883|892|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|916|925|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|966|973|autowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|autowho|()V
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|993|1013|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|957|969|autowhoTimer|method|me.thedreps.hypixeltweaks.events.AutowhoManager|autowhoTimer|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|970|995|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|996|997|e|param|me.thedreps.hypixeltweaks.events.AutowhoManager|autowhoTimer|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1012|1032|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1051|1060|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1084|1093|ticksLeft|field|me.thedreps.hypixeltweaks.events.AutowhoManager|ticksLeft
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1134|1141|autowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|autowho|()V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1161|1181|countingTicksAutowho|field|me.thedreps.hypixeltweaks.events.AutowhoManager|countingTicksAutowho
    Method End: autowhoTimer(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+   Method Start: updatePlayers(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1258|1271|updatePlayers|method|me.thedreps.hypixeltweaks.events.AutowhoManager|updatePlayers|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1272|1295|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1296|1297|e|param|me.thedreps.hypixeltweaks.events.AutowhoManager|updatePlayers|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1309|1315|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1326|1327|e|param|me.thedreps.hypixeltweaks.events.AutowhoManager|updatePlayers|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1328|1335|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1336|1354|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1373|1386|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1387|1400|getServerInfo|method|me.thedreps.hypixeltweaks.HypixelTweaks|getServerInfo|()Lme/thedreps/hypixeltweaks/ServerInfo;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1403|1411|gametype|field|me.thedreps.hypixeltweaks.ServerInfo|gametype
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1412|1418|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1433|1446|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1447|1460|getServerInfo|method|me.thedreps.hypixeltweaks.HypixelTweaks|getServerInfo|()Lme/thedreps/hypixeltweaks/ServerInfo;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1463|1471|gametype|field|me.thedreps.hypixeltweaks.ServerInfo|gametype
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1472|1478|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1496|1509|HypixelTweaks|class|me.thedreps.hypixeltweaks.HypixelTweaks
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1510|1523|getServerInfo|method|me.thedreps.hypixeltweaks.HypixelTweaks|getServerInfo|()Lme/thedreps/hypixeltweaks/ServerInfo;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1526|1530|mode|field|me.thedreps.hypixeltweaks.ServerInfo|mode
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1531|1537|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1578|1586|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1638|1649|CurrentGame|class|me.thedreps.hypixeltweaks.reference.CurrentGame
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1650|1655|debug|method|me.thedreps.hypixeltweaks.reference.CurrentGame|debug|()V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1698|1706|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1766|1773|indexOf|method|java.lang.String|indexOf|(Ljava/lang/String;)I
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1809|1815|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1835|1844|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1876|1887|CurrentGame|class|me.thedreps.hypixeltweaks.reference.CurrentGame
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1888|1903|addPlayerToGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerToGame|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1904|1909|Utils|class|me.thedreps.hypixeltweaks.utility.Utils
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1910|1922|nameToPlayer|method|me.thedreps.hypixeltweaks.utility.Utils|nameToPlayer|(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1974|1982|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2040|2047|indexOf|method|java.lang.String|indexOf|(Ljava/lang/String;)I
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2081|2087|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2107|2116|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2148|2159|CurrentGame|class|me.thedreps.hypixeltweaks.reference.CurrentGame
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2160|2180|removePlayerFromGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|removePlayerFromGame|(Ljava/lang/String;)V
+   Method End: updatePlayers(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
    Method Start: autowho()V
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1071|1078|autowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|autowho|()V
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1091|1097|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1103|1112|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1113|1125|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1128|1137|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1138|1145|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1157|1161|List|class|java.util.List
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1162|1174|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1186|1195|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1196|1208|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1211|1219|theWorld|field|net.minecraft.client.Minecraft|theWorld
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1220|1234|playerEntities|field|net.minecraft.world.World|playerEntities
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1244|1257|StringBuilder|class|java.lang.StringBuilder
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1267|1280|StringBuilder|class|java.lang.StringBuilder
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1295|1301|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1402|1414|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1457|1464|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1467|1483|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1506|1517|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1529|1540|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1577|1581|getX|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getX|()D
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1612|1616|getY|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getY|()D
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1647|1651|getZ|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getZ|()D
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1693|1705|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1738|1749|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1761|1772|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1802|1806|getX|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getX|()D
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1865|1869|getY|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getY|()D
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1890|1894|getY|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getY|()D
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|1956|1960|getZ|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getZ|()D
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2022|2029|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2032|2048|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2111|2117|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2125|2145|getDisplayNameString|method|net.minecraft.entity.player.EntityPlayer|getDisplayNameString|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2149|2155|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2181|2187|String|class|java.lang.String
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2200|2208|toString|method|java.lang.Object|toString|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2211|2215|trim|method|java.lang.String|trim|()Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2243|2252|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2263|2269|length|method|java.lang.CharSequence|length|()I
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2285|2294|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
-      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2295|2299|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2242|2249|autowho|method|me.thedreps.hypixeltweaks.events.AutowhoManager|autowho|()V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2262|2268|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2274|2283|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2284|2296|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2299|2308|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2309|2316|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2328|2332|List|class|java.util.List
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2333|2345|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2357|2366|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2367|2379|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2382|2390|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2391|2405|playerEntities|field|net.minecraft.world.World|playerEntities
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2415|2428|StringBuilder|class|java.lang.StringBuilder
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2438|2451|StringBuilder|class|java.lang.StringBuilder
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2466|2472|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2573|2585|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2628|2635|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2638|2654|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2677|2688|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2700|2711|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2748|2752|getX|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getX|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2783|2787|getY|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getY|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2818|2822|getZ|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getZ|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2859|2865|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2897|2909|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2942|2951|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2952|2956|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|2978|2989|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3001|3012|PlayerToXYZ|class|me.thedreps.hypixeltweaks.utility.PlayerToXYZ
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3065|3069|getX|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getX|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3088|3092|getX|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getX|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3154|3158|getY|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getY|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3179|3183|getY|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getY|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3246|3250|getZ|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getZ|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3269|3273|getZ|method|me.thedreps.hypixeltweaks.utility.PlayerToXYZ|getZ|()D
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3338|3345|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3348|3364|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3420|3427|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3469|3481|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3586|3592|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3600|3620|getDisplayNameString|method|net.minecraft.entity.player.EntityPlayer|getDisplayNameString|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3624|3630|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3662|3669|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3672|3688|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3717|3728|CurrentGame|class|me.thedreps.hypixeltweaks.reference.CurrentGame
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3729|3744|addPlayerToGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerToGame|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3787|3793|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3806|3814|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3817|3821|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3849|3858|substring|method|java.lang.String|substring|(II)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3869|3875|length|method|java.lang.CharSequence|length|()I
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3891|3900|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\events\AutowhoManager.java|3901|3905|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
    Method End: autowho()V
 Class End  : me.thedreps.hypixeltweaks.events.AutowhoManager
 endProcessing me\thedreps\hypixeltweaks\events\AutowhoManager.java
@@ -377,6 +496,25 @@ Class Start: me.thedreps.hypixeltweaks.events.LoginChat
    Method End: onPlayerLogin(Lnet/minecraftforge/event/world/ChunkEvent$Load;)V
 Class End  : me.thedreps.hypixeltweaks.events.LoginChat
 endProcessing me\thedreps\hypixeltweaks\events\LoginChat.java
+
+processing me\thedreps\hypixeltweaks\events\PartyHandler.java
+@|me\thedreps\hypixeltweaks\events\PartyHandler.java|8|40|me.thedreps.hypixeltweaks.events|package|me.thedreps.hypixeltweaks.events|(file)
+Class Start: me.thedreps.hypixeltweaks.events.PartyHandler
+   Method Start: onPlayerChatEvent(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\thedreps\hypixeltweaks\events\PartyHandler.java|239|256|onPlayerChatEvent|method|me.thedreps.hypixeltweaks.events.PartyHandler|onPlayerChatEvent|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\thedreps\hypixeltweaks\events\PartyHandler.java|257|280|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|me\thedreps\hypixeltweaks\events\PartyHandler.java|281|282|e|param|me.thedreps.hypixeltweaks.events.PartyHandler|onPlayerChatEvent|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\events\PartyHandler.java|294|300|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\events\PartyHandler.java|311|312|e|param|me.thedreps.hypixeltweaks.events.PartyHandler|onPlayerChatEvent|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\thedreps\hypixeltweaks\events\PartyHandler.java|313|320|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|me\thedreps\hypixeltweaks\events\PartyHandler.java|321|339|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+   Method End: onPlayerChatEvent(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : me.thedreps.hypixeltweaks.events.PartyHandler
+endProcessing me\thedreps\hypixeltweaks\events\PartyHandler.java
+
+processing me\thedreps\hypixeltweaks\events\Walking.java
+  File had no contents.
+endProcessing me\thedreps\hypixeltweaks\events\Walking.java
 
 processing me\thedreps\hypixeltweaks\gui\GuiFactory.java
 @|me\thedreps\hypixeltweaks\gui\GuiFactory.java|8|37|me.thedreps.hypixeltweaks.gui|package|me.thedreps.hypixeltweaks.gui|(file)
@@ -430,6 +568,134 @@ Class Start: me.thedreps.hypixeltweaks.gui.ModGuiConfig
 Class End  : me.thedreps.hypixeltweaks.gui.ModGuiConfig
 endProcessing me\thedreps\hypixeltweaks\gui\ModGuiConfig.java
 
+processing me\thedreps\hypixeltweaks\reference\CurrentGame.java
+@|me\thedreps\hypixeltweaks\reference\CurrentGame.java|8|43|me.thedreps.hypixeltweaks.reference|package|me.thedreps.hypixeltweaks.reference|(file)
+Class Start: me.thedreps.hypixeltweaks.reference.CurrentGame
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|489|504|ExecutorService|class|java.util.concurrent.ExecutorService
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|505|512|service|field|me.thedreps.hypixeltweaks.reference.CurrentGame|service|
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|515|524|Executors|class|java.util.concurrent.Executors
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|525|543|newFixedThreadPool|method|java.util.concurrent.Executors|newFixedThreadPool|(I)Ljava/util/concurrent/ExecutorService;
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|587|593|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|595|606|PlayerStats|class|me.thedreps.hypixeltweaks.utility.PlayerStats
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|569|586|ConcurrentHashMap|class|java.util.concurrent.ConcurrentHashMap
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|608|620|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats|
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|627|644|ConcurrentHashMap|class|java.util.concurrent.ConcurrentHashMap
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|687|699|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|701|708|Boolean|class|java.lang.Boolean
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|669|686|ConcurrentHashMap|class|java.util.concurrent.ConcurrentHashMap
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|710|723|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame|
+   @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|730|747|ConcurrentHashMap|class|java.util.concurrent.ConcurrentHashMap
+   Method Start: addPlayerStats(Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|778|792|addPlayerStats|method|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerStats|(Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|793|804|PlayerStats|class|me.thedreps.hypixeltweaks.utility.PlayerStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|805|807|ps|param|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerStats|(Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V|ps|0
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|818|830|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|831|834|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|835|837|ps|param|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerStats|(Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V|ps|0
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|838|842|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|844|846|ps|param|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerStats|(Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V|ps|0
+   Method End: addPlayerStats(Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V
+   Method Start: addPlayerToGame(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|878|893|addPlayerToGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerToGame|(Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|894|906|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|907|913|player|param|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerToGame|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|924|933|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|934|938|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|951|957|player|param|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerToGame|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|958|965|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|991|1004|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1005|1008|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1009|1015|player|param|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerToGame|(Lnet/minecraft/entity/player/EntityPlayer;)V|player|0
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1033|1040|service|field|me.thedreps.hypixeltweaks.reference.CurrentGame|service
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1041|1048|execute|method|java.util.concurrent.Executor|execute|(Ljava/lang/Runnable;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1053|1063|FetchStats|class|me.thedreps.hypixeltweaks.runnable.FetchStats
+   Method End: addPlayerToGame(Lnet/minecraft/entity/player/EntityPlayer;)V
+   Method Start: removePlayerFromGame(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1097|1117|removePlayerFromGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|removePlayerFromGame|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1118|1124|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1125|1129|name|param|me.thedreps.hypixeltweaks.reference.CurrentGame|removePlayerFromGame|(Ljava/lang/String;)V|name|0
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1140|1153|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1154|1160|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1161|1166|Utils|class|me.thedreps.hypixeltweaks.utility.Utils
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1167|1179|nameToPlayer|method|me.thedreps.hypixeltweaks.utility.Utils|nameToPlayer|(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1180|1184|name|param|me.thedreps.hypixeltweaks.reference.CurrentGame|removePlayerFromGame|(Ljava/lang/String;)V|name|0
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1196|1208|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1209|1215|remove|method|java.util.Map|remove|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1216|1220|name|param|me.thedreps.hypixeltweaks.reference.CurrentGame|removePlayerFromGame|(Ljava/lang/String;)V|name|0
+   Method End: removePlayerFromGame(Ljava/lang/String;)V
+   Method Start: getAmountOfPlayersInGame()I
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1252|1276|getAmountOfPlayersInGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|getAmountOfPlayersInGame|()I
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1295|1308|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1309|1313|size|method|java.util.Map|size|()I
+   Method End: getAmountOfPlayersInGame()I
+   Method Start: getAmountOfPlayerStats()I
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1346|1368|getAmountOfPlayerStats|method|me.thedreps.hypixeltweaks.reference.CurrentGame|getAmountOfPlayerStats|()I
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1387|1399|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1400|1404|size|method|java.util.Map|size|()I
+   Method End: getAmountOfPlayerStats()I
+   Method Start: getNextPlayer()Lnet/minecraft/entity/player/EntityPlayer;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1446|1459|getNextPlayer|method|me.thedreps.hypixeltweaks.reference.CurrentGame|getNextPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1433|1445|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1475|1487|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1493|1506|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1507|1513|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1534|1547|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1548|1551|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1574|1587|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1588|1591|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+   Method End: getNextPlayer()Lnet/minecraft/entity/player/EntityPlayer;
+   Method Start: resetGame()V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1705|1714|resetGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|resetGame|()V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1726|1738|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1745|1762|ConcurrentHashMap|class|java.util.concurrent.ConcurrentHashMap
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1776|1789|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1796|1813|ConcurrentHashMap|class|java.util.concurrent.ConcurrentHashMap
+   Method End: resetGame()V
+   Method Start: debug()V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1851|1856|debug|method|me.thedreps.hypixeltweaks.reference.CurrentGame|debug|()V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1869|1878|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1879|1883|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1916|1925|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1926|1930|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1958|1967|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|1968|1972|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2003|2025|getAmountOfPlayerStats|method|me.thedreps.hypixeltweaks.reference.CurrentGame|getAmountOfPlayerStats|()I
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2038|2047|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2048|2052|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2083|2107|getAmountOfPlayersInGame|method|me.thedreps.hypixeltweaks.reference.CurrentGame|getAmountOfPlayersInGame|()I
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2120|2129|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2130|2134|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2167|2176|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2177|2181|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2223|2235|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2245|2258|playersInGame|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersInGame
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2259|2265|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2282|2291|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2292|2296|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2304|2311|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2334|2343|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2344|2348|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2381|2390|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2391|2395|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2443|2449|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2457|2469|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2470|2476|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2496|2508|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2509|2512|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2519|2527|isNicked|field|me.thedreps.hypixeltweaks.utility.PlayerStats|isNicked
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2546|2555|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2556|2560|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2616|2625|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2626|2630|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2645|2657|playersStats|field|me.thedreps.hypixeltweaks.reference.CurrentGame|playersStats
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2658|2661|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2668|2680|networkLevel|field|me.thedreps.hypixeltweaks.utility.PlayerStats|networkLevel
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2716|2725|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\reference\CurrentGame.java|2726|2730|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+   Method End: debug()V
+Class End  : me.thedreps.hypixeltweaks.reference.CurrentGame
+endProcessing me\thedreps\hypixeltweaks\reference\CurrentGame.java
+
 processing me\thedreps\hypixeltweaks\reference\Reference.java
 @|me\thedreps\hypixeltweaks\reference\Reference.java|8|43|me.thedreps.hypixeltweaks.reference|package|me.thedreps.hypixeltweaks.reference|(file)
 Class Start: me.thedreps.hypixeltweaks.reference.Reference
@@ -468,6 +734,225 @@ Class Start: me.thedreps.hypixeltweaks.reference.UpdateInfo
    @|me\thedreps\hypixeltweaks\reference\UpdateInfo.java|621|630|updateLN2|field|me.thedreps.hypixeltweaks.reference.UpdateInfo|updateLN2|
 Class End  : me.thedreps.hypixeltweaks.reference.UpdateInfo
 endProcessing me\thedreps\hypixeltweaks\reference\UpdateInfo.java
+
+processing me\thedreps\hypixeltweaks\runnable\FetchStats.java
+@|me\thedreps\hypixeltweaks\runnable\FetchStats.java|8|42|me.thedreps.hypixeltweaks.runnable|package|me.thedreps.hypixeltweaks.runnable|(file)
+Class Start: me.thedreps.hypixeltweaks.runnable.FetchStats
+   Method Start: run()V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|441|444|run|method|java.lang.Runnable|run|()V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|458|470|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|476|487|CurrentGame|class|me.thedreps.hypixeltweaks.reference.CurrentGame
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|488|501|getNextPlayer|method|me.thedreps.hypixeltweaks.reference.CurrentGame|getNextPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|569|573|UUID|class|java.util.UUID
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|584|595|getUniqueID|method|net.minecraft.entity.Entity|getUniqueID|()Ljava/util/UUID;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|608|617|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|618|622|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|658|666|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|693|704|PlayerStats|class|me.thedreps.hypixeltweaks.utility.PlayerStats
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|723|734|PlayerStats|class|me.thedreps.hypixeltweaks.utility.PlayerStats
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|747|757|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|771|784|getPlayerJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getPlayerJson|(Ljava/util/UUID;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|830|834|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|837|854|getStringFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getStringFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|855|870|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|925|945|NullPointerException|class|java.lang.NullPointerException
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|962|971|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|972|976|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|980|987|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1031|1039|isNicked|field|me.thedreps.hypixeltweaks.utility.PlayerStats|isNicked
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1079|1091|networkLevel|field|me.thedreps.hypixeltweaks.utility.PlayerStats|networkLevel
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1094|1098|Math|class|java.lang.Math
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1099|1104|floor|method|java.lang.Math|floor|(D)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1118|1122|Math|class|java.lang.Math
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1123|1127|sqrt|method|java.lang.Math|sqrt|(D)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1145|1162|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1163|1178|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1240|1257|bedwarsFinalKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalKills
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1260|1277|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1278|1293|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1294|1309|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1310|1325|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1415|1433|bedwarsFinalDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalDeaths
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1436|1453|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1454|1469|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1470|1485|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1486|1501|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1592|1604|bedwarsStars|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsStars
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1607|1624|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1625|1640|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1641|1656|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1735|1746|bedwarsFkdr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFkdr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1761|1778|bedwarsFinalKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalKills
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1793|1811|bedwarsFinalDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalDeaths
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1833|1845|bedwarsIndex|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsIndex
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1860|1872|bedwarsStars|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsStars
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1875|1879|Math|class|java.lang.Math
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1880|1883|pow|method|java.lang.Math|pow|(DD)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1896|1907|bedwarsFkdr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFkdr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1933|1944|bedwarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWins
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1947|1964|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1965|1980|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1981|1996|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|1997|2012|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2095|2108|bedwarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsLosses
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2111|2128|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2129|2144|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2145|2160|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2161|2176|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2261|2271|bedwarsWlr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWlr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2286|2297|bedwarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWins
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2312|2325|bedwarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsLosses
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2347|2363|bedwarsWinstreak|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWinstreak
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2366|2383|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2384|2399|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2400|2415|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2416|2431|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2511|2528|bedwarsBedsBroken|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsBroken
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2531|2548|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2549|2564|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2565|2580|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2581|2596|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2686|2701|bedwarsBedsLost|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsLost
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2704|2721|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2722|2737|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2738|2753|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2754|2769|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2857|2868|bedwarsBblr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBblr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2883|2900|bedwarsBedsBroken|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsBroken
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2915|2930|bedwarsBedsLost|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsLost
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2953|2965|skywarsStars|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsStars
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2968|2980|sw_xp_to_lvl|method|me.thedreps.hypixeltweaks.runnable.FetchStats|sw_xp_to_lvl|(D)I
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2981|2998|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|2999|3014|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3015|3030|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3031|3046|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3136|3148|skywarsKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsKills
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3151|3168|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3169|3184|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3185|3200|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3201|3216|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3292|3305|skywarsDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsDeaths
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3308|3325|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3326|3341|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3342|3357|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3358|3373|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3450|3461|skywarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsWins
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3464|3481|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3482|3497|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3498|3513|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3514|3529|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3604|3617|skywarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsLosses
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3620|3637|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3638|3653|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3654|3669|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3670|3685|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3762|3772|skywarsKdr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsKdr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3787|3799|skywarsKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsKills
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3814|3827|skywarsDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsDeaths
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3849|3859|skywarsWlr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsWlr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3874|3885|skywarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsWins
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3900|3913|skywarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsLosses
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3925|3934|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3935|3939|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3952|3956|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|3991|4003|networkLevel|field|me.thedreps.hypixeltweaks.utility.PlayerStats|networkLevel
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4014|4023|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4024|4028|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4041|4045|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4073|4081|isNicked|field|me.thedreps.hypixeltweaks.utility.PlayerStats|isNicked
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4092|4101|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4102|4106|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4119|4123|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4150|4167|bedwarsFinalKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalKills
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4178|4187|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4188|4192|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4205|4209|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4236|4254|bedwarsFinalDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalDeaths
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4265|4274|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4275|4279|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4292|4296|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4325|4337|bedwarsStars|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsStars
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4348|4357|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4358|4362|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4375|4379|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4407|4418|bedwarsFkdr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFkdr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4429|4438|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4439|4443|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4456|4460|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4489|4501|bedwarsIndex|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsIndex
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4512|4521|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4522|4526|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4539|4543|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4571|4582|bedwarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWins
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4593|4602|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4603|4607|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4620|4624|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4654|4667|bedwarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsLosses
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4678|4687|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4688|4692|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4705|4709|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4736|4746|bedwarsWlr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWlr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4757|4766|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4767|4771|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4784|4788|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4814|4830|bedwarsWinstreak|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWinstreak
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4841|4850|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4851|4855|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4868|4872|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4905|4922|bedwarsBedsBroken|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsBroken
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4933|4942|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4943|4947|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4960|4964|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|4995|5010|bedwarsBedsLost|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsLost
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5021|5030|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5031|5035|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5048|5052|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5080|5091|bedwarsBblr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBblr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5102|5111|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5112|5116|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5129|5133|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5161|5173|skywarsStars|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsStars
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5184|5193|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5194|5198|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5211|5215|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5244|5256|skywarsKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsKills
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5267|5276|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5277|5281|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5294|5298|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5328|5341|skywarsDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsDeaths
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5352|5361|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5362|5366|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5379|5383|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5411|5422|skywarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsWins
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5433|5442|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5443|5447|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5460|5464|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5494|5507|skywarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsLosses
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5518|5527|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5528|5532|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5545|5549|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5576|5586|skywarsKdr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsKdr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5597|5606|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5607|5611|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5624|5628|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5655|5665|skywarsWlr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsWlr
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5677|5688|CurrentGame|class|me.thedreps.hypixeltweaks.reference.CurrentGame
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5689|5703|addPlayerStats|method|me.thedreps.hypixeltweaks.reference.CurrentGame|addPlayerStats|(Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5727|5736|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5737|5741|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5776|5780|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name
+   Method End: run()V
+   Method Start: sw_xp_to_lvl(D)I
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5956|5968|sw_xp_to_lvl|method|me.thedreps.hypixeltweaks.runnable.FetchStats|sw_xp_to_lvl|(D)I
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|5976|5978|xp|param|me.thedreps.hypixeltweaks.runnable.FetchStats|sw_xp_to_lvl|(D)I|xp|0
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|6080|6082|xp|param|me.thedreps.hypixeltweaks.runnable.FetchStats|sw_xp_to_lvl|(D)I|xp|0
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|6121|6123|xp|param|me.thedreps.hypixeltweaks.runnable.FetchStats|sw_xp_to_lvl|(D)I|xp|0
+      Field: Array Length, skipping
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|6235|6237|xp|param|me.thedreps.hypixeltweaks.runnable.FetchStats|sw_xp_to_lvl|(D)I|xp|0
+      @|me\thedreps\hypixeltweaks\runnable\FetchStats.java|6289|6291|xp|param|me.thedreps.hypixeltweaks.runnable.FetchStats|sw_xp_to_lvl|(D)I|xp|0
+   Method End: sw_xp_to_lvl(D)I
+Class End  : me.thedreps.hypixeltweaks.runnable.FetchStats
+endProcessing me\thedreps\hypixeltweaks\runnable\FetchStats.java
 
 processing me\thedreps\hypixeltweaks\update\UpdateCheck.java
 @|me\thedreps\hypixeltweaks\update\UpdateCheck.java|8|40|me.thedreps.hypixeltweaks.update|package|me.thedreps.hypixeltweaks.update|(file)
@@ -600,6 +1085,146 @@ Class Start: me.thedreps.hypixeltweaks.update.UpdateSuccess
 Class End  : me.thedreps.hypixeltweaks.update.UpdateSuccess
 endProcessing me\thedreps\hypixeltweaks\update\UpdateSuccess.java
 
+processing me\thedreps\hypixeltweaks\utility\HypixelAPI.java
+@|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|8|41|me.thedreps.hypixeltweaks.utility|package|me.thedreps.hypixeltweaks.utility|(file)
+Class Start: me.thedreps.hypixeltweaks.utility.HypixelAPI
+   Method Start: getJSONObject(Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|405|418|getJSONObject|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJSONObject|(Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|394|404|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|438|452|ParseException|class|org.json.simple.parser.ParseException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|454|465|IOException|class|java.io.IOException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|419|425|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|426|429|url|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJSONObject|(Ljava/lang/String;)Lorg/json/simple/JSONObject;|url|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|476|479|URL|class|java.net.URL
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|489|492|URL|class|java.net.URL
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|493|496|url|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJSONObject|(Ljava/lang/String;)Lorg/json/simple/JSONObject;|url|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|507|516|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|517|521|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|522|525|url|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJSONObject|(Ljava/lang/String;)Lorg/json/simple/JSONObject;|url|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|536|553|HttpURLConnection|class|java.net.HttpURLConnection
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|562|579|HttpURLConnection|class|java.net.HttpURLConnection
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|584|598|openConnection|method|java.net.URL|openConnection|()Ljava/net/URLConnection;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|615|631|setRequestMethod|method|java.net.HttpURLConnection|setRequestMethod|(Ljava/lang/String;)V
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|653|660|connect|method|java.net.URLConnection|connect|()V
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|697|712|getResponseCode|method|java.net.HttpURLConnection|getResponseCode|()I
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|764|777|StringBuilder|class|java.lang.StringBuilder
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|791|804|StringBuilder|class|java.lang.StringBuilder
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|820|827|Scanner|class|java.util.Scanner
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|842|849|Scanner|class|java.util.Scanner
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|853|863|openStream|method|java.net.URL|openStream|()Ljava/io/InputStream;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|896|903|hasNext|method|java.util.Iterator|hasNext|()Z
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|932|938|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|947|955|nextLine|method|java.util.Scanner|nextLine|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|995|1000|close|method|java.lang.AutoCloseable|close|()V
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1017|1027|JSONParser|class|org.json.simple.parser.JSONParser
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1040|1050|JSONParser|class|org.json.simple.parser.JSONParser
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1074|1084|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1092|1097|parse|method|org.json.simple.parser.JSONParser|parse|(Ljava/lang/String;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1105|1113|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1187|1203|RuntimeException|class|java.lang.RuntimeException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1362|1378|RuntimeException|class|java.lang.RuntimeException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1455|1471|RuntimeException|class|java.lang.RuntimeException
+   Method End: getJSONObject(Ljava/lang/String;)Lorg/json/simple/JSONObject;
+   Method Start: getJsonFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1565|1580|getJsonFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1554|1564|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1581|1591|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1592|1602|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1604|1610|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1611|1614|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1652|1662|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1664|1674|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1675|1678|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1679|1682|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJsonFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1702|1720|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1748|1766|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1847|1867|NullPointerException|class|java.lang.NullPointerException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1894|1914|NullPointerException|class|java.lang.NullPointerException
+   Method End: getJsonFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;
+   Method Start: getStringFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1988|2005|getStringFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getStringFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|1981|1987|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2006|2016|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2017|2027|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getStringFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2029|2035|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2036|2039|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getStringFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2077|2083|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2085|2095|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getStringFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2096|2099|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2100|2103|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getStringFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2123|2141|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2169|2187|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2266|2286|NullPointerException|class|java.lang.NullPointerException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2313|2333|NullPointerException|class|java.lang.NullPointerException
+   Method End: getStringFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;
+   Method Start: getIntFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)I
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2404|2418|getIntFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getIntFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)I
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2419|2429|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2430|2440|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getIntFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)I|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2442|2448|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2449|2452|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getIntFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)I|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2495|2505|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getIntFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)I|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2506|2509|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2510|2513|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getIntFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)I|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2533|2551|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2579|2597|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2676|2696|NullPointerException|class|java.lang.NullPointerException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2723|2743|NullPointerException|class|java.lang.NullPointerException
+   Method End: getIntFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)I
+   Method Start: getDoubleFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2817|2834|getDoubleFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2835|2845|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2846|2856|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2858|2864|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2865|2868|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2880|2889|LogHelper|class|me.thedreps.hypixeltweaks.utility.LogHelper
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2890|2894|info|method|me.thedreps.hypixeltweaks.utility.LogHelper|info|(Ljava/lang/Object;)V
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2895|2898|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2934|2940|Double|class|java.lang.Double
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2941|2952|parseDouble|method|java.lang.Double|parseDouble|(Ljava/lang/String;)D
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2953|2963|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2964|2967|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2968|2971|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getDoubleFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)D|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|2973|2981|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3003|3021|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3049|3067|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3146|3166|NullPointerException|class|java.lang.NullPointerException
+   Method End: getDoubleFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)D
+   Method Start: getBooleanFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3312|3330|getBooleanFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getBooleanFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3331|3341|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3342|3352|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getBooleanFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3354|3360|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3361|3364|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getBooleanFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3411|3421|JSONObject|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getBooleanFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z|JSONObject|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3422|3425|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3426|3429|get|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getBooleanFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z|get|1
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3449|3467|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3495|3513|ClassCastException|class|java.lang.ClassCastException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3593|3613|NullPointerException|class|java.lang.NullPointerException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3640|3660|NullPointerException|class|java.lang.NullPointerException
+   Method End: getBooleanFromJson(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z
+   Method Start: getPlayerJson(Ljava/util/UUID;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3738|3751|getPlayerJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getPlayerJson|(Ljava/util/UUID;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3727|3737|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3752|3756|UUID|class|java.util.UUID
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3757|3761|uuid|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getPlayerJson|(Ljava/util/UUID;)Lorg/json/simple/JSONObject;|uuid|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3772|3782|JSONObject|class|org.json.simple.JSONObject
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3796|3802|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3809|3822|ConfigHandler|class|me.thedreps.hypixeltweaks.ConfigHandler
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3823|3832|getApiKey|method|me.thedreps.hypixeltweaks.ConfigHandler|getApiKey|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3868|3881|getJSONObject|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getJSONObject|(Ljava/lang/String;)Lorg/json/simple/JSONObject;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3923|3927|uuid|param|me.thedreps.hypixeltweaks.utility.HypixelAPI|getPlayerJson|(Ljava/util/UUID;)Lorg/json/simple/JSONObject;|uuid|0
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3928|3936|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|3973|3991|getBooleanFromJson|method|me.thedreps.hypixeltweaks.utility.HypixelAPI|getBooleanFromJson|(Lorg/json/simple/JSONObject;Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|4115|4135|NullPointerException|class|java.lang.NullPointerException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|4138|4152|ParseException|class|org.json.simple.parser.ParseException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|4155|4166|IOException|class|java.io.IOException
+      @|me\thedreps\hypixeltweaks\utility\HypixelAPI.java|4185|4200|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getPlayerJson(Ljava/util/UUID;)Lorg/json/simple/JSONObject;
+Class End  : me.thedreps.hypixeltweaks.utility.HypixelAPI
+endProcessing me\thedreps\hypixeltweaks\utility\HypixelAPI.java
+
 processing me\thedreps\hypixeltweaks\utility\LogHelper.java
 @|me\thedreps\hypixeltweaks\utility\LogHelper.java|8|41|me.thedreps.hypixeltweaks.utility|package|me.thedreps.hypixeltweaks.utility|(file)
 Class Start: me.thedreps.hypixeltweaks.utility.LogHelper
@@ -693,6 +1318,35 @@ Class Start: me.thedreps.hypixeltweaks.utility.LogHelper
 Class End  : me.thedreps.hypixeltweaks.utility.LogHelper
 endProcessing me\thedreps\hypixeltweaks\utility\LogHelper.java
 
+processing me\thedreps\hypixeltweaks\utility\PlayerStats.java
+@|me\thedreps\hypixeltweaks\utility\PlayerStats.java|8|41|me.thedreps.hypixeltweaks.utility|package|me.thedreps.hypixeltweaks.utility|(file)
+Class Start: me.thedreps.hypixeltweaks.utility.PlayerStats
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|99|105|String|class|java.lang.String
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|106|110|name|field|me.thedreps.hypixeltweaks.utility.PlayerStats|name|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|131|143|networkLevel|field|me.thedreps.hypixeltweaks.utility.PlayerStats|networkLevel|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|165|173|isNicked|field|me.thedreps.hypixeltweaks.utility.PlayerStats|isNicked|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|219|236|bedwarsFinalKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalKills|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|256|274|bedwarsFinalDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFinalDeaths|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|294|305|bedwarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWins|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|325|338|bedwarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsLosses|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|358|375|bedwarsBedsBroken|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsBroken|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|395|410|bedwarsBedsLost|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBedsLost|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|430|446|bedwarsWinstreak|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWinstreak|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|466|478|bedwarsStars|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsStars|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|500|510|bedwarsWlr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsWlr|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|530|542|bedwarsIndex|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsIndex|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|562|573|bedwarsFkdr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsFkdr|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|593|604|bedwarsBblr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|bedwarsBblr|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|642|654|skywarsStars|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsStars|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|674|686|skywarsKills|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsKills|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|706|719|skywarsDeaths|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsDeaths|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|739|750|skywarsWins|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsWins|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|770|783|skywarsLosses|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsLosses|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|805|815|skywarsKdr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsKdr|
+   @|me\thedreps\hypixeltweaks\utility\PlayerStats.java|835|845|skywarsWlr|field|me.thedreps.hypixeltweaks.utility.PlayerStats|skywarsWlr|
+Class End  : me.thedreps.hypixeltweaks.utility.PlayerStats
+endProcessing me\thedreps\hypixeltweaks\utility\PlayerStats.java
+
 processing me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java
 @|me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java|8|41|me.thedreps.hypixeltweaks.utility|package|me.thedreps.hypixeltweaks.utility|(file)
 Class Start: me.thedreps.hypixeltweaks.utility.PlayerToXYZ
@@ -739,4 +1393,25 @@ Class Start: me.thedreps.hypixeltweaks.utility.PlayerToXYZ
    Method End: getZ()D
 Class End  : me.thedreps.hypixeltweaks.utility.PlayerToXYZ
 endProcessing me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java
+
+processing me\thedreps\hypixeltweaks\utility\Utils.java
+@|me\thedreps\hypixeltweaks\utility\Utils.java|8|41|me.thedreps.hypixeltweaks.utility|package|me.thedreps.hypixeltweaks.utility|(file)
+Class Start: me.thedreps.hypixeltweaks.utility.Utils
+   Method Start: nameToPlayer(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|186|198|nameToPlayer|method|me.thedreps.hypixeltweaks.utility.Utils|nameToPlayer|(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|173|185|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|199|205|String|class|java.lang.String
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|206|210|name|param|me.thedreps.hypixeltweaks.utility.Utils|nameToPlayer|(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;|name|0
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|222|234|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|259|271|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|281|290|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|291|303|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|306|314|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|315|329|playerEntities|field|net.minecraft.world.World|playerEntities
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|354|361|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|364|380|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|me\thedreps\hypixeltweaks\utility\Utils.java|381|385|name|param|me.thedreps.hypixeltweaks.utility.Utils|nameToPlayer|(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;|name|0
+   Method End: nameToPlayer(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;
+Class End  : me.thedreps.hypixeltweaks.utility.Utils
+endProcessing me\thedreps\hypixeltweaks\utility\Utils.java
 

@@ -16,6 +16,13 @@ public class ConfigHandler {
 	public static boolean updateCheck = true;
 	public static boolean enableJsonRemover = true;
 	public static boolean enableCompatibilityMode = false;
+	public static boolean enableAutoDodgeBedwars = false;
+	public static int maxBedwarsIndex = 2000;
+	public static boolean enableAutoDodgeSkywars = false;
+	public static int maxSkywarsStar = 15;
+	public static boolean dodgeForNicks = true;
+	public static int requeueBuffer = 5;
+	public static String antiSniperApiKey = "";
 
 	public static void init(String configDir) {
 		if(config == null) {
@@ -32,6 +39,13 @@ public class ConfigHandler {
 		updateCheck = config.getBoolean("Check For Updates", Configuration.CATEGORY_GENERAL, true, "Allow this mod to check for updates.");
 		enableJsonRemover = config.getBoolean("Enable Json Remover", Configuration.CATEGORY_GENERAL, true, "Stops badly coded plugins spamming chat with /locraw");
 		enableCompatibilityMode = config.getBoolean("Enable Compatibility Mode", Configuration.CATEGORY_GENERAL, false, "If the plugin isn't performing as expected try turning this on.");
+		enableAutoDodgeBedwars = config.getBoolean("Enable Bedwars Auto Dodge", Configuration.CATEGORY_GENERAL, false, "Requeue a game if someone is too powerful");
+		maxBedwarsIndex = config.getInt("Bedwars Max Index", Configuration.CATEGORY_GENERAL, 2000, 0, Integer.MAX_VALUE, "Max index before you requeue");
+		enableAutoDodgeSkywars = config.getBoolean("Enable Skywars Auto Dodge", Configuration.CATEGORY_GENERAL, false, "Requeue a game if someone is too powerful");
+		maxSkywarsStar = config.getInt("Skywars Max Star", Configuration.CATEGORY_GENERAL, 15, 1, Integer.MAX_VALUE, "Max star before you requeue");
+		dodgeForNicks = config.getBoolean("Dodge if nick joins", Configuration.CATEGORY_GENERAL, true, "Dodge if a nick joins your lobby");
+		requeueBuffer = config.getInt("Requeue Buffer (Seconds)", Configuration.CATEGORY_GENERAL, 5, 1, Integer.MAX_VALUE, "How long to leave it till leaving (will always leave before game starts)");
+		antiSniperApiKey = config.getString("Antisniper API Key", Configuration.CATEGORY_GENERAL, "", "Enter Antisniper API key to enable additional features");
 
 
 
@@ -53,8 +67,6 @@ public class ConfigHandler {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(apiKeyPath));
 			return br.readLine();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -67,9 +79,7 @@ public class ConfigHandler {
 			pw = new PrintWriter(apiKeyPath, "UTF-8");
 			pw.println(key);
 			pw.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
+		} catch (FileNotFoundException | UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
 	}

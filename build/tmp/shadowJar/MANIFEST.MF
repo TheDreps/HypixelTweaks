@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: hypixel-api-transport-unirest-4.2.jar hypixel-api-core-4.2
+ .jar unirest-java-3.13.6.jar gson-2.9.0.jar httpcore-nio-4.4.15.jar h
+ ttpmime-4.5.13.jar httpclient-4.5.13.jar httpasyncclient-4.1.5.jar ht
+ tpcore-4.4.15.jar commons-logging-1.2.jar commons-codec-1.11.jar
+

@@ -1,30 +1,44 @@
-me/thedreps/hypixeltweaks/ConfigHandler.java
- me.thedreps.hypixeltweaks.ConfigHandler
+me/thedreps/hypixeltweaks/utility/PlayerStats.java
+ me.thedreps.hypixeltweaks.utility.PlayerStats
+me/thedreps/hypixeltweaks/reference/CurrentGame.java
+ me.thedreps.hypixeltweaks.reference.CurrentGame
 me/thedreps/hypixeltweaks/reference/Reference.java
  me.thedreps.hypixeltweaks.reference.Reference
-me/thedreps/hypixeltweaks/events/LoginChat.java
- me.thedreps.hypixeltweaks.events.LoginChat
 me/thedreps/hypixeltweaks/events/AutowhoManager.java
  me.thedreps.hypixeltweaks.events.AutowhoManager
+me/thedreps/hypixeltweaks/KeyHandler.java
+ me.thedreps.hypixeltweaks.KeyHandler
 me/thedreps/hypixeltweaks/utility/LogHelper.java
  me.thedreps.hypixeltweaks.utility.LogHelper
 me/thedreps/hypixeltweaks/ServerInfo.java
  me.thedreps.hypixeltweaks.ServerInfo
-me/thedreps/hypixeltweaks/gui/ModGuiConfig.java
- me.thedreps.hypixeltweaks.gui.ModGuiConfig
-me/thedreps/hypixeltweaks/HypixelTweaks.java
- me.thedreps.hypixeltweaks.HypixelTweaks
-me/thedreps/hypixeltweaks/update/UpdateCheck.java
- me.thedreps.hypixeltweaks.update.UpdateCheck
-me/thedreps/hypixeltweaks/gui/GuiFactory.java
- me.thedreps.hypixeltweaks.gui.GuiFactory
-me/thedreps/hypixeltweaks/events/DeleteJson.java
- me.thedreps.hypixeltweaks.events.DeleteJson
-me/thedreps/hypixeltweaks/update/UpdateError.java
- me.thedreps.hypixeltweaks.update.UpdateError
+me/thedreps/hypixeltweaks/utility/Utils.java
+ me.thedreps.hypixeltweaks.utility.Utils
+me/thedreps/hypixeltweaks/update/UpdateSuccess.java
+ me.thedreps.hypixeltweaks.update.UpdateSuccess
 me/thedreps/hypixeltweaks/reference/UpdateInfo.java
  me.thedreps.hypixeltweaks.reference.UpdateInfo
 me/thedreps/hypixeltweaks/utility/PlayerToXYZ.java
  me.thedreps.hypixeltweaks.utility.PlayerToXYZ
-me/thedreps/hypixeltweaks/update/UpdateSuccess.java
- me.thedreps.hypixeltweaks.update.UpdateSuccess
+me/thedreps/hypixeltweaks/update/UpdateError.java
+ me.thedreps.hypixeltweaks.update.UpdateError
+me/thedreps/hypixeltweaks/update/UpdateCheck.java
+ me.thedreps.hypixeltweaks.update.UpdateCheck
+me/thedreps/hypixeltweaks/gui/GuiFactory.java
+ me.thedreps.hypixeltweaks.gui.GuiFactory
+me/thedreps/hypixeltweaks/ConfigHandler.java
+ me.thedreps.hypixeltweaks.ConfigHandler
+me/thedreps/hypixeltweaks/events/DeleteJson.java
+ me.thedreps.hypixeltweaks.events.DeleteJson
+me/thedreps/hypixeltweaks/events/LoginChat.java
+ me.thedreps.hypixeltweaks.events.LoginChat
+me/thedreps/hypixeltweaks/utility/HypixelAPI.java
+ me.thedreps.hypixeltweaks.utility.HypixelAPI
+me/thedreps/hypixeltweaks/runnable/FetchStats.java
+ me.thedreps.hypixeltweaks.runnable.FetchStats
+me/thedreps/hypixeltweaks/gui/ModGuiConfig.java
+ me.thedreps.hypixeltweaks.gui.ModGuiConfig
+me/thedreps/hypixeltweaks/HypixelTweaks.java
+ me.thedreps.hypixeltweaks.HypixelTweaks
+me/thedreps/hypixeltweaks/events/PartyHandler.java
+ me.thedreps.hypixeltweaks.events.PartyHandler

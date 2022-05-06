@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import me.thedreps.hypixeltweaks.events.AutowhoManager;
 import me.thedreps.hypixeltweaks.events.DeleteJson;
 import me.thedreps.hypixeltweaks.events.LoginChat;
+import me.thedreps.hypixeltweaks.reference.CurrentGame;
 import me.thedreps.hypixeltweaks.reference.Reference;
 import me.thedreps.hypixeltweaks.update.UpdateCheck;
 import me.thedreps.hypixeltweaks.utility.LogHelper;
@@ -54,6 +55,10 @@ public class HypixelTweaks
 		MinecraftForge.EVENT_BUS.register(new DeleteJson());
 		MinecraftForge.EVENT_BUS.register(new AutowhoManager());
 
+
+//		MinecraftForge.EVENT_BUS.register(new KeyHandler());
+//		MinecraftForge.EVENT_BUS.register(new Walking());
+
 	}
 
 
@@ -62,6 +67,7 @@ public class HypixelTweaks
     {
         MinecraftForge.EVENT_BUS.register(this);
     }
+
 
 
 
@@ -89,7 +95,7 @@ public class HypixelTweaks
         		}
         	}
             
-            if(message.contains("Your new API key is")) {
+            else if(message.contains("Your new API key is")) {
 				String userApiKey = message.substring(message.length() - 36);
 				ConfigHandler.setApiKey(userApiKey);
 				LogHelper.info("[Hypixel Tweaks] Registered new API key: " + userApiKey);
@@ -103,6 +109,7 @@ public class HypixelTweaks
       serverInfo.reset();
       isAwaitingLocation = true;
       isAwaitingAutowho = true;
+	  CurrentGame.resetGame();
       
       
     }

@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GradlePackageUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="io.projectreactor:reactor-core" />
+          <option value="io.projectreactor.netty:reactor-netty-core" />
+          <option value="io.projectreactor.netty:reactor-netty-http" />
+          <option value="com.konghq:unirest-java" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

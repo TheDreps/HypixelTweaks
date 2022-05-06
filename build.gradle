@@ -2,14 +2,16 @@
 // For those who want the bleeding edge
 buildscript {
     repositories {
-        jcenter()
-        maven {
-            name = "forge"
-            url = url = "https://maven.minecraftforge.net/"
-        }
         maven {
             name = "jitpack"
             url = "https://jitpack.io/"
+        }
+        maven {
+            url 'https://repo.hypixel.net/repository/Hypixel/'
+        }
+        maven {
+            name = "forge"
+            url = url = "https://maven.minecraftforge.net/"
         }
     }
     dependencies {
@@ -62,6 +64,8 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 
 }
 

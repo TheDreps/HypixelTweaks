@@ -33406,6 +33406,34 @@ No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENE
 No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
 No rename for class net/minecraftforge/common/config/Configuration
 No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
+[method, net/minecraftforge/common/config/Configuration/getBoolean, (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z]
+No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
+[method, net/minecraftforge/common/config/Configuration/getInt, (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I]
+No rename for method net/minecraftforge/common/config/Configuration/getInt (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
+[method, net/minecraftforge/common/config/Configuration/getBoolean, (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z]
+No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
+[method, net/minecraftforge/common/config/Configuration/getInt, (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I]
+No rename for method net/minecraftforge/common/config/Configuration/getInt (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
+[method, net/minecraftforge/common/config/Configuration/getBoolean, (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z]
+No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
+[method, net/minecraftforge/common/config/Configuration/getInt, (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I]
+No rename for method net/minecraftforge/common/config/Configuration/getInt (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
+[method, net/minecraftforge/common/config/Configuration/getString, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
+No rename for method net/minecraftforge/common/config/Configuration/getString (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
 [method, net/minecraftforge/common/config/Configuration/hasChanged, ()Z]
 No rename for method net/minecraftforge/common/config/Configuration/hasChanged ()Z
 [method, net/minecraftforge/common/config/Configuration/save, ()V]
@@ -33420,11 +33448,9 @@ No rename for class net/minecraftforge/common/config/Configuration
 [method, me/thedreps/hypixeltweaks/ConfigHandler/getApiKey, ()Ljava/lang/String;]
 [method, java/io/BufferedReader/readLine, ()Ljava/lang/String;]
 [method, java/lang/Throwable/printStackTrace, ()V]
-[method, java/lang/Throwable/printStackTrace, ()V]
 [method, me/thedreps/hypixeltweaks/ConfigHandler/setApiKey, (Ljava/lang/String;)V]
 [method, java/io/PrintWriter/println, (Ljava/lang/String;)V]
 [method, java/lang/AutoCloseable/close, ()V]
-[method, java/lang/Throwable/printStackTrace, ()V]
 [method, java/lang/Throwable/printStackTrace, ()V]
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\ConfigHandler.java
@@ -33466,7 +33492,7 @@ No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/registe
 [method, me/thedreps/hypixeltweaks/HypixelTweaks/onChat, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
 No rename for class net/minecraftforge/client/event/ClientChatReceivedEvent
 No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
-Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[2332,2350]::getUnformattedText->func_150260_c
+Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[2502,2520]::getUnformattedText->func_150260_c
 [method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
 [method, me/thedreps/hypixeltweaks/ServerInfo/reset, ()V]
 [method, com/google/gson/Gson/fromJson, (Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;]
@@ -33484,16 +33510,31 @@ No rename for method net/minecraftforge/fml/common/eventhandler/Event/setCancele
 [method, me/thedreps/hypixeltweaks/HypixelTweaks/onWorldChange, (Lnet/minecraftforge/event/world/WorldEvent$Load;)V]
 No rename for class net/minecraftforge/event/world/WorldEvent/Load
 [method, me/thedreps/hypixeltweaks/ServerInfo/reset, ()V]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/resetGame, ()V]
 [method, me/thedreps/hypixeltweaks/HypixelTweaks/onChunkLoad, (Lnet/minecraftforge/event/world/ChunkEvent$Load;)V]
 No rename for class net/minecraftforge/event/world/ChunkEvent/Load
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
-Rename class net/minecraft/client/Minecraft[3773,3782]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3783,3795]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[3798,3807]::thePlayer->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[3812,3827]::sendChatMessage->func_71165_d
+Rename class net/minecraft/client/Minecraft[3976,3985]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3986,3998]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[4001,4010]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[4015,4030]::sendChatMessage->func_71165_d
 Import: net.minecraft.client.Minecraft
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\HypixelTweaks.java
+
+Start Processing: me\thedreps\hypixeltweaks\KeyHandler.java
+Warning: me\thedreps\hypixeltweaks\KeyHandler.java has CRLF line endings; consider switching to LF
+Rename class net/minecraft/client/settings/KeyBinding[280,290]::KeyBinding->KeyBinding
+[method, me/thedreps/hypixeltweaks/KeyHandler/KeyHandler, ()V]
+FOUND CONSTR method me/thedreps/hypixeltweaks/KeyHandler/KeyHandler ()V me/thedreps/hypixeltweaks/KeyHandler
+Rename class net/minecraft/client/settings/KeyBinding[360,370]::KeyBinding->KeyBinding
+Rename class net/minecraft/client/settings/KeyBinding[445,455]::KeyBinding->KeyBinding
+No rename for class net/minecraftforge/fml/client/registry/ClientRegistry
+[method, net/minecraftforge/fml/client/registry/ClientRegistry/registerKeyBinding, (Lnet/minecraft/client/settings/KeyBinding;)V]
+No rename for method net/minecraftforge/fml/client/registry/ClientRegistry/registerKeyBinding (Lnet/minecraft/client/settings/KeyBinding;)V
+Import: net.minecraft.client.settings.KeyBinding
+Adding 0 imports
+End  Processing: me\thedreps\hypixeltweaks\KeyHandler.java
 
 Start Processing: me\thedreps\hypixeltweaks\ServerInfo.java
 Warning: me\thedreps\hypixeltweaks\ServerInfo.java has CRLF line endings; consider switching to LF
@@ -33507,34 +33548,63 @@ Warning: me\thedreps\hypixeltweaks\events\AutowhoManager.java has CRLF line endi
 [method, me/thedreps/hypixeltweaks/events/AutowhoManager/autowhoTimer, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V]
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/ClientTickEvent
 [method, me/thedreps/hypixeltweaks/events/AutowhoManager/autowho, ()V]
+[method, me/thedreps/hypixeltweaks/events/AutowhoManager/updatePlayers, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
+No rename for class net/minecraftforge/client/event/ClientChatReceivedEvent
+No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
+Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[1336,1354]::getUnformattedText->func_150260_c
+[method, me/thedreps/hypixeltweaks/HypixelTweaks/getServerInfo, ()Lme/thedreps/hypixeltweaks/ServerInfo;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, me/thedreps/hypixeltweaks/HypixelTweaks/getServerInfo, ()Lme/thedreps/hypixeltweaks/ServerInfo;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, me/thedreps/hypixeltweaks/HypixelTweaks/getServerInfo, ()Lme/thedreps/hypixeltweaks/ServerInfo;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/debug, ()V]
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+[method, java/lang/String/indexOf, (Ljava/lang/String;)I]
+[method, java/lang/String/substring, (II)Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/addPlayerToGame, (Lnet/minecraft/entity/player/EntityPlayer;)V]
+[method, me/thedreps/hypixeltweaks/utility/Utils/nameToPlayer, (Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;]
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+[method, java/lang/String/indexOf, (Ljava/lang/String;)I]
+[method, java/lang/String/substring, (II)Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/removePlayerFromGame, (Ljava/lang/String;)V]
 [method, me/thedreps/hypixeltweaks/events/AutowhoManager/autowho, ()V]
-Rename class net/minecraft/client/Minecraft[1103,1112]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1113,1125]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[1128,1137]::thePlayer->field_71439_g
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[1142,1149]::getName->func_70005_c_
-Rename class net/minecraft/entity/player/EntityPlayer[1172,1184]::EntityPlayer->EntityPlayer
-Rename class net/minecraft/client/Minecraft[1196,1205]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1206,1218]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/theWorld[1221,1229]::theWorld->field_71441_e
-Rename field net/minecraft/world/World/playerEntities[1235,1249]::playerEntities->field_73010_i
+Rename class net/minecraft/client/Minecraft[2269,2278]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2279,2291]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[2294,2303]::thePlayer->field_71439_g
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[2308,2315]::getName->func_70005_c_
+Rename class net/minecraft/entity/player/EntityPlayer[2338,2350]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/client/Minecraft[2362,2371]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2372,2384]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/theWorld[2387,2395]::theWorld->field_71441_e
+Rename field net/minecraft/world/World/playerEntities[2401,2415]::playerEntities->field_73010_i
 [method, java/lang/AbstractStringBuilder/append, (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;]
-Rename class net/minecraft/entity/player/EntityPlayer[1416,1428]::EntityPlayer->EntityPlayer
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[1471,1478]::getName->func_70005_c_
+Rename class net/minecraft/entity/player/EntityPlayer[2582,2594]::EntityPlayer->EntityPlayer
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[2637,2644]::getName->func_70005_c_
 [method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getX, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getY, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getZ, ()D]
-Rename class net/minecraft/entity/player/EntityPlayer[1713,1725]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[2912,2924]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getX, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getX, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getY, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getY, ()D]
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getZ, ()D]
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[2042,2049]::getName->func_70005_c_
+[method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/getZ, ()D]
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[3353,3360]::getName->func_70005_c_
 [method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[3441,3448]::getName->func_70005_c_
+Rename class net/minecraft/entity/player/EntityPlayer[3496,3508]::EntityPlayer->EntityPlayer
 [method, java/lang/AbstractStringBuilder/append, (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;]
 [method, net/minecraft/entity/player/EntityPlayer/getDisplayNameString, ()Ljava/lang/String;]
 No rename for method net/minecraft/entity/player/EntityPlayer/getDisplayNameString ()Ljava/lang/String;
 [method, java/lang/AbstractStringBuilder/append, (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;]
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[3689,3696]::getName->func_70005_c_
+[method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/addPlayerToGame, (Lnet/minecraft/entity/player/EntityPlayer;)V]
 [method, java/lang/Object/toString, ()Ljava/lang/String;]
 [method, java/lang/String/trim, ()Ljava/lang/String;]
 [method, java/lang/String/substring, (II)Ljava/lang/String;]
@@ -33566,6 +33636,15 @@ FOUND CONSTR method me/thedreps/hypixeltweaks/update/UpdateError/UpdateError (Ln
 [method, me/thedreps/hypixeltweaks/update/UpdateSuccess/updateSuccess, (Lnet/minecraftforge/event/world/ChunkEvent$Load;)V]
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\events\LoginChat.java
+
+Start Processing: me\thedreps\hypixeltweaks\events\PartyHandler.java
+Warning: me\thedreps\hypixeltweaks\events\PartyHandler.java has CRLF line endings; consider switching to LF
+[method, me/thedreps/hypixeltweaks/events/PartyHandler/onPlayerChatEvent, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
+No rename for class net/minecraftforge/client/event/ClientChatReceivedEvent
+No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
+Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[321,339]::getUnformattedText->func_150260_c
+Adding 0 imports
+End  Processing: me\thedreps\hypixeltweaks\events\PartyHandler.java
 
 Start Processing: me\thedreps\hypixeltweaks\gui\GuiFactory.java
 Warning: me\thedreps\hypixeltweaks\gui\GuiFactory.java has CRLF line endings; consider switching to LF
@@ -33609,6 +33688,58 @@ Import: net.minecraft.client.gui.GuiScreen
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\gui\ModGuiConfig.java
 
+Start Processing: me\thedreps\hypixeltweaks\reference\CurrentGame.java
+Warning: me\thedreps\hypixeltweaks\reference\CurrentGame.java has CRLF line endings; consider switching to LF
+[method, java/util/concurrent/Executors/newFixedThreadPool, (I)Ljava/util/concurrent/ExecutorService;]
+Rename class net/minecraft/entity/player/EntityPlayer[687,699]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/addPlayerStats, (Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V]
+[method, java/util/Map/put, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/addPlayerToGame, (Lnet/minecraft/entity/player/EntityPlayer;)V]
+Rename class net/minecraft/entity/player/EntityPlayer[894,906]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[958,965]::getName->func_70005_c_
+[method, java/util/Map/put, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+[method, java/util/concurrent/Executor/execute, (Ljava/lang/Runnable;)V]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/removePlayerFromGame, (Ljava/lang/String;)V]
+[method, java/util/Map/remove, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/utility/Utils/nameToPlayer, (Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;]
+[method, java/util/Map/remove, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getAmountOfPlayersInGame, ()I]
+[method, java/util/Map/size, ()I]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getAmountOfPlayerStats, ()I]
+[method, java/util/Map/size, ()I]
+Rename class net/minecraft/entity/player/EntityPlayer[1439,1451]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getNextPlayer, ()Lnet/minecraft/entity/player/EntityPlayer;]
+Rename class net/minecraft/entity/player/EntityPlayer[1481,1493]::EntityPlayer->EntityPlayer
+[method, java/util/Map/keySet, ()Ljava/util/Set;]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, java/util/Map/put, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/resetGame, ()V]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/debug, ()V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getAmountOfPlayerStats, ()I]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getAmountOfPlayersInGame, ()I]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+Rename class net/minecraft/entity/player/EntityPlayer[2229,2241]::EntityPlayer->EntityPlayer
+[method, java/util/Map/keySet, ()Ljava/util/Set;]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[2310,2317]::getName->func_70005_c_
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, java/util/Map/keySet, ()Ljava/util/Set;]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+Import: net.minecraft.entity.player.EntityPlayer
+Adding 0 imports
+End  Processing: me\thedreps\hypixeltweaks\reference\CurrentGame.java
+
 Start Processing: me\thedreps\hypixeltweaks\reference\Reference.java
 Warning: me\thedreps\hypixeltweaks\reference\Reference.java has CRLF line endings; consider switching to LF
 End  Processing: me\thedreps\hypixeltweaks\reference\Reference.java
@@ -33617,6 +33748,104 @@ Start Processing: me\thedreps\hypixeltweaks\reference\UpdateInfo.java
 Warning: me\thedreps\hypixeltweaks\reference\UpdateInfo.java has CRLF line endings; consider switching to LF
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\reference\UpdateInfo.java
+
+Start Processing: me\thedreps\hypixeltweaks\runnable\FetchStats.java
+Warning: me\thedreps\hypixeltweaks\runnable\FetchStats.java has CRLF line endings; consider switching to LF
+[method, java/lang/Runnable/run, ()V]
+Rename class net/minecraft/entity/player/EntityPlayer[458,470]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getNextPlayer, ()Lnet/minecraft/entity/player/EntityPlayer;]
+Rename method net/minecraft/entity/Entity/getUniqueID ()Ljava/util/UUID;[584,595]::getUniqueID->func_110124_au
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, java/lang/Object/toString, ()Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getPlayerJson, (Ljava/util/UUID;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getStringFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[983,990]::getName->func_70005_c_
+[method, java/lang/Math/floor, (D)D]
+[method, java/lang/Math/sqrt, (D)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, java/lang/Math/pow, (DD)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/runnable/FetchStats/sw_xp_to_lvl, (D)I]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/addPlayerStats, (Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, me/thedreps/hypixeltweaks/runnable/FetchStats/sw_xp_to_lvl, (D)I]
+Import: net.minecraft.entity.player.EntityPlayer
+Adding 0 imports
+End  Processing: me\thedreps\hypixeltweaks\runnable\FetchStats.java
 
 Start Processing: me\thedreps\hypixeltweaks\update\UpdateCheck.java
 Warning: me\thedreps\hypixeltweaks\update\UpdateCheck.java has CRLF line endings; consider switching to LF
@@ -33699,6 +33928,43 @@ Import: net.minecraft.util.EnumChatFormatting
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\update\UpdateSuccess.java
 
+Start Processing: me\thedreps\hypixeltweaks\utility\HypixelAPI.java
+Warning: me\thedreps\hypixeltweaks\utility\HypixelAPI.java has CRLF line endings; consider switching to LF
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJSONObject, (Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, java/net/URL/openConnection, ()Ljava/net/URLConnection;]
+[method, java/net/HttpURLConnection/setRequestMethod, (Ljava/lang/String;)V]
+[method, java/net/URLConnection/connect, ()V]
+[method, java/net/HttpURLConnection/getResponseCode, ()I]
+[method, java/net/URL/openStream, ()Ljava/io/InputStream;]
+[method, java/util/Iterator/hasNext, ()Z]
+[method, java/lang/AbstractStringBuilder/append, (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;]
+[method, java/util/Scanner/nextLine, ()Ljava/lang/String;]
+[method, java/lang/AutoCloseable/close, ()V]
+[method, org/json/simple/parser/JSONParser/parse, (Ljava/lang/String;)Ljava/lang/Object;]
+[method, java/lang/Object/toString, ()Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJsonFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getStringFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Ljava/lang/String;]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getIntFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)I]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getDoubleFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)D]
+[method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+[method, java/lang/Double/parseDouble, (Ljava/lang/String;)D]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, java/lang/Object/toString, ()Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getBooleanFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Z]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getPlayerJson, (Ljava/util/UUID;)Lorg/json/simple/JSONObject;]
+[method, me/thedreps/hypixeltweaks/ConfigHandler/getApiKey, ()Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getJSONObject, (Ljava/lang/String;)Lorg/json/simple/JSONObject;]
+[method, java/lang/Object/toString, ()Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/utility/HypixelAPI/getBooleanFromJson, (Lorg/json/simple/JSONObject;Ljava/lang/String;)Z]
+[method, java/lang/Throwable/printStackTrace, ()V]
+Adding 0 imports
+End  Processing: me\thedreps\hypixeltweaks\utility\HypixelAPI.java
+
 Start Processing: me\thedreps\hypixeltweaks\utility\LogHelper.java
 Warning: me\thedreps\hypixeltweaks\utility\LogHelper.java has CRLF line endings; consider switching to LF
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/log, (Lorg/apache/logging/log4j/Level;Ljava/lang/Object;)V]
@@ -33725,6 +33991,10 @@ No rename for method net/minecraftforge/fml/common/FMLLog/log (Ljava/lang/String
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\utility\LogHelper.java
 
+Start Processing: me\thedreps\hypixeltweaks\utility\PlayerStats.java
+Warning: me\thedreps\hypixeltweaks\utility\PlayerStats.java has CRLF line endings; consider switching to LF
+End  Processing: me\thedreps\hypixeltweaks\utility\PlayerStats.java
+
 Start Processing: me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java
 Warning: me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java has CRLF line endings; consider switching to LF
 [method, me/thedreps/hypixeltweaks/utility/PlayerToXYZ/PlayerToXYZ, (Lnet/minecraft/entity/player/EntityPlayer;)V]
@@ -33749,4 +34019,21 @@ Rename class net/minecraft/entity/player/EntityPlayer[230,242]::EntityPlayer->En
 Import: net.minecraft.entity.player.EntityPlayer
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\utility\PlayerToXYZ.java
+
+Start Processing: me\thedreps\hypixeltweaks\utility\Utils.java
+Warning: me\thedreps\hypixeltweaks\utility\Utils.java has CRLF line endings; consider switching to LF
+Rename class net/minecraft/entity/player/EntityPlayer[173,185]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/utility/Utils/nameToPlayer, (Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;]
+Rename class net/minecraft/entity/player/EntityPlayer[222,234]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[259,271]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/client/Minecraft[281,290]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[291,303]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/theWorld[306,314]::theWorld->field_71441_e
+Rename field net/minecraft/world/World/playerEntities[320,334]::playerEntities->field_73010_i
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[358,365]::getName->func_70005_c_
+[method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.entity.player.EntityPlayer
+Adding 0 imports
+End  Processing: me\thedreps\hypixeltweaks\utility\Utils.java
 
