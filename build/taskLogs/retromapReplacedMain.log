@@ -33410,26 +33410,6 @@ No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENE
 No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
 No rename for class net/minecraftforge/common/config/Configuration
 No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
-[method, net/minecraftforge/common/config/Configuration/getInt, (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I]
-No rename for method net/minecraftforge/common/config/Configuration/getInt (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
-No rename for class net/minecraftforge/common/config/Configuration
-No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
-[method, net/minecraftforge/common/config/Configuration/getBoolean, (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z]
-No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
-No rename for class net/minecraftforge/common/config/Configuration
-No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
-[method, net/minecraftforge/common/config/Configuration/getInt, (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I]
-No rename for method net/minecraftforge/common/config/Configuration/getInt (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
-No rename for class net/minecraftforge/common/config/Configuration
-No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
-[method, net/minecraftforge/common/config/Configuration/getBoolean, (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z]
-No rename for method net/minecraftforge/common/config/Configuration/getBoolean (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
-No rename for class net/minecraftforge/common/config/Configuration
-No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
-[method, net/minecraftforge/common/config/Configuration/getInt, (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I]
-No rename for method net/minecraftforge/common/config/Configuration/getInt (Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
-No rename for class net/minecraftforge/common/config/Configuration
-No rename for field net/minecraftforge/common/config/Configuration/CATEGORY_GENERAL
 [method, net/minecraftforge/common/config/Configuration/getString, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
 No rename for method net/minecraftforge/common/config/Configuration/getString (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 No rename for class net/minecraftforge/common/config/Configuration
@@ -33503,6 +33483,9 @@ No rename for method net/minecraftforge/fml/common/eventhandler/Event/setCancele
 [method, java/lang/String/equals, (Ljava/lang/Object;)Z]
 [method, me/thedreps/hypixeltweaks/events/AutowhoManager/startAutowho, (I)V]
 [method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/updateKillMessage, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
 [method, java/lang/String/substring, (I)Ljava/lang/String;]
 [method, java/lang/CharSequence/length, ()I]
 [method, me/thedreps/hypixeltweaks/ConfigHandler/setApiKey, (Ljava/lang/String;)V]
@@ -33514,10 +33497,10 @@ No rename for class net/minecraftforge/event/world/WorldEvent/Load
 [method, me/thedreps/hypixeltweaks/HypixelTweaks/onChunkLoad, (Lnet/minecraftforge/event/world/ChunkEvent$Load;)V]
 No rename for class net/minecraftforge/event/world/ChunkEvent/Load
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
-Rename class net/minecraft/client/Minecraft[3976,3985]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3986,3998]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/thePlayer[4001,4010]::thePlayer->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[4015,4030]::sendChatMessage->func_71165_d
+Rename class net/minecraft/client/Minecraft[4107,4116]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[4117,4129]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[4132,4141]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[4146,4161]::sendChatMessage->func_71165_d
 Import: net.minecraft.client.Minecraft
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\HypixelTweaks.java
@@ -33691,13 +33674,16 @@ End  Processing: me\thedreps\hypixeltweaks\gui\ModGuiConfig.java
 Start Processing: me\thedreps\hypixeltweaks\reference\CurrentGame.java
 Warning: me\thedreps\hypixeltweaks\reference\CurrentGame.java has CRLF line endings; consider switching to LF
 [method, java/util/concurrent/Executors/newFixedThreadPool, (I)Ljava/util/concurrent/ExecutorService;]
-Rename class net/minecraft/entity/player/EntityPlayer[687,699]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getPlayersStats, ()Ljava/util/concurrent/ConcurrentHashMap;]
+Rename class net/minecraft/entity/player/EntityPlayer[848,860]::EntityPlayer->EntityPlayer
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getPlayersInGame, ()Ljava/util/concurrent/ConcurrentHashMap;]
+Rename class net/minecraft/entity/player/EntityPlayer[1066,1078]::EntityPlayer->EntityPlayer
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/addPlayerStats, (Lme/thedreps/hypixeltweaks/utility/PlayerStats;)V]
 [method, java/util/Map/put, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/addPlayerToGame, (Lnet/minecraft/entity/player/EntityPlayer;)V]
-Rename class net/minecraft/entity/player/EntityPlayer[894,906]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[1273,1285]::EntityPlayer->EntityPlayer
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[958,965]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[1337,1344]::getName->func_70005_c_
 [method, java/util/Map/put, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
 [method, java/util/concurrent/Executor/execute, (Ljava/lang/Runnable;)V]
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/removePlayerFromGame, (Ljava/lang/String;)V]
@@ -33708,12 +33694,44 @@ Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[
 [method, java/util/Map/size, ()I]
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/getAmountOfPlayerStats, ()I]
 [method, java/util/Map/size, ()I]
-Rename class net/minecraft/entity/player/EntityPlayer[1439,1451]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[1818,1830]::EntityPlayer->EntityPlayer
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/getNextPlayer, ()Lnet/minecraft/entity/player/EntityPlayer;]
-Rename class net/minecraft/entity/player/EntityPlayer[1481,1493]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[1860,1872]::EntityPlayer->EntityPlayer
 [method, java/util/Map/keySet, ()Ljava/util/Set;]
 [method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
 [method, java/util/Map/put, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/updateKillMessage, (Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V]
+No rename for class net/minecraftforge/client/event/ClientChatReceivedEvent
+No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
+Rename method net/minecraft/util/IChatComponent/getUnformattedText ()Ljava/lang/String;[2171,2189]::getUnformattedText->func_150260_c
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+[method, java/lang/String/split, (Ljava/lang/String;)[Ljava/lang/String;]
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getPlayersStats, ()Ljava/util/concurrent/ConcurrentHashMap;]
+[method, java/util/Map/containsKey, (Ljava/lang/Object;)Z]
+[method, net/minecraftforge/fml/common/eventhandler/Event/setCanceled, (Z)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/Event/setCanceled (Z)V
+Rename class net/minecraft/client/Minecraft[2629,2638]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2639,2651]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[2654,2663]::thePlayer->field_71439_g
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[2668,2682]::addChatMessage->func_145747_a
+No rename for field net/minecraftforge/client/event/ClientChatReceivedEvent/message
+[method, java/lang/String/contains, (Ljava/lang/CharSequence;)Z]
+Rename class net/minecraft/client/Minecraft[2759,2768]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2769,2781]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[2784,2793]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[2798,2813]::sendChatMessage->func_71165_d
+Rename class net/minecraft/util/EnumChatFormatting[2811,2829]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/DARK_GRAY[2830,2839]::DARK_GRAY->DARK_GRAY
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getPlayersStats, ()Ljava/util/concurrent/ConcurrentHashMap;]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
+Rename class net/minecraft/client/Minecraft[2948,2957]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2958,2970]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/thePlayer[2973,2982]::thePlayer->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[2987,3002]::sendChatMessage->func_71165_d
+Rename class net/minecraft/util/EnumChatFormatting[3000,3018]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/DARK_GRAY[3019,3028]::DARK_GRAY->DARK_GRAY
+[method, me/thedreps/hypixeltweaks/reference/CurrentGame/getPlayersStats, ()Ljava/util/concurrent/ConcurrentHashMap;]
+[method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/resetGame, ()V]
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/debug, ()V]
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
@@ -33724,10 +33742,10 @@ Rename class net/minecraft/entity/player/EntityPlayer[1481,1493]::EntityPlayer->
 [method, me/thedreps/hypixeltweaks/reference/CurrentGame/getAmountOfPlayersInGame, ()I]
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
-Rename class net/minecraft/entity/player/EntityPlayer[2229,2241]::EntityPlayer->EntityPlayer
+Rename class net/minecraft/entity/player/EntityPlayer[3670,3682]::EntityPlayer->EntityPlayer
 [method, java/util/Map/keySet, ()Ljava/util/Set;]
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
-Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[2310,2317]::getName->func_70005_c_
+Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[3751,3758]::getName->func_70005_c_
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
 [method, java/util/Map/keySet, ()Ljava/util/Set;]
@@ -33736,7 +33754,9 @@ Rename method net/minecraft/command/ICommandSender/getName ()Ljava/lang/String;[
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
 [method, java/util/Map/get, (Ljava/lang/Object;)Ljava/lang/Object;]
 [method, me/thedreps/hypixeltweaks/utility/LogHelper/info, (Ljava/lang/Object;)V]
+Import: net.minecraft.client.Minecraft
 Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.util.EnumChatFormatting
 Adding 0 imports
 End  Processing: me\thedreps\hypixeltweaks\reference\CurrentGame.java
 

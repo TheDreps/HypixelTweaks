@@ -94,6 +94,10 @@ public class HypixelTweaks
                 	}
         		}
         	}
+
+			else if(message.contains("BED DESTRUCTION > ") || message.contains("FINAL KILL!")){
+				CurrentGame.updateKillMessage(e);
+			}
             
             else if(message.contains("Your new API key is")) {
 				String userApiKey = message.substring(message.length() - 36);

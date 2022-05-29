@@ -9,7 +9,7 @@ public class PartyHandler {
     public void onPlayerChatEvent(ClientChatReceivedEvent e){
 
         String message = e.message.getUnformattedText();
-        
+
     }
 
 

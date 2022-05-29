@@ -1,6 +1,3 @@
-[![](https://jitpack.io/v/HypixelDev/PublicAPI.svg)](https://jitpack.io/#HypixelDev/PublicAPI)
-
-
 # HypixelTweaks
  Small plugin with a few tweaks
 

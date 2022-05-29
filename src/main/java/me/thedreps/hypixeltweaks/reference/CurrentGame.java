@@ -4,7 +4,10 @@ import me.thedreps.hypixeltweaks.runnable.FetchStats;
 import me.thedreps.hypixeltweaks.utility.LogHelper;
 import me.thedreps.hypixeltweaks.utility.PlayerStats;
 import me.thedreps.hypixeltweaks.utility.Utils;
+import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.EnumChatFormatting;
+import net.minecraftforge.client.event.ClientChatReceivedEvent;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
@@ -13,6 +16,14 @@ import java.util.concurrent.Executors;
 public class CurrentGame {
 
     private static final ExecutorService service = Executors.newFixedThreadPool(50);
+
+    public static ConcurrentHashMap<String, PlayerStats> getPlayersStats() {
+        return playersStats;
+    }
+
+    public static ConcurrentHashMap<EntityPlayer, Boolean> getPlayersInGame() {
+        return playersInGame;
+    }
 
     private static ConcurrentHashMap<String, PlayerStats> playersStats = new ConcurrentHashMap<>();
     private static ConcurrentHashMap<EntityPlayer, Boolean> playersInGame = new ConcurrentHashMap<>();
@@ -47,6 +58,39 @@ public class CurrentGame {
             }
         }
         return null;
+    }
+
+    public static void updateKillMessage(ClientChatReceivedEvent e){
+        String message = e.message.getUnformattedText();
+
+        if(message.contains("#")){
+            return;
+        }
+
+        String[] splitString = message.split(" ");
+        String playerName = null;
+        for(String word : splitString){
+            if(CurrentGame.getPlayersStats().containsKey(word)){
+                playerName = word;
+                break;
+            }
+        }
+
+        if(playerName == null){
+            return;
+        }
+
+        e.setCanceled(true);
+
+        Minecraft.getMinecraft().thePlayer.addChatMessage(e.message);
+
+        if(message.contains("BED DESTRUCTION > ")){
+            Minecraft.getMinecraft().thePlayer.sendChatMessage(EnumChatFormatting.DARK_GRAY + "(#" + CurrentGame.getPlayersStats().get(playerName).bedwarsBedsBroken + ")");
+        }else{
+            Minecraft.getMinecraft().thePlayer.sendChatMessage(EnumChatFormatting.DARK_GRAY + "(#" + CurrentGame.getPlayersStats().get(playerName).bedwarsFinalKills + ")");
+        }
+
+
     }
 
     public static void resetGame(){
